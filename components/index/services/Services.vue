@@ -1,6 +1,6 @@
 <template>
 
-<section class="servicos imobanco-color-05">
+<section class="services imobanco-color-05">
 		<div class="container">
 			<div class="row pt-4 pb-4">
 			<div class="col-lg-12 text-center mb-4">

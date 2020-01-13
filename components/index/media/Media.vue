@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Videomidia from '@/components/index/midia/Videomidia.vue'
-import Webinar from '@/components/index/midia/Webinar.vue'
+import Videomidia from '@/components/index/media/Videomidia.vue'
+import Webinar from '@/components/index/media/Webinar.vue'
 
 
 export default {

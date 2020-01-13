@@ -12,7 +12,7 @@
 			<div class="row mt-2">
 				<div class="col-lg-12">
 					<b-link v-b-toggle.collapse-1 variant="primary" class="button text-left text-subtitulo imo-text-06 button-solucoes">
-			  <span class="imo-text-06"><i class="fas fa-chevron-circle-down"></i></span> SABE AQUELE PAGAMENTO QUE VOCÊ PRECISA COBRAR? NÓS FAZEMOS ISSO PARA VOCÊ!  </b-link>
+			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> SABE AQUELE PAGAMENTO QUE VOCÊ PRECISA COBRAR? NÓS FAZEMOS ISSO PARA VOCÊ!  </b-link>
 				</div>
 
 				<div class="col-lg-12">
@@ -24,11 +24,11 @@
 				</div>
 
 			</div>
-			  
-			  <div class="row mt-2">
+			  <hr>
+			  <div class="row mt-4">
 				<div class="col-lg-12">
 					<b-link v-b-toggle.collapse-2 variant="primary" class="button text-left text-subtitulo imo-text-06 button-solucoes">
-			  <span class="imo-text-06"><i class="fas fa-chevron-circle-down"></i></span> QUANTO TEMPO VOCÊ PERDE VERIFICANDO PAGAMENTOS? OU COBRANDO OS ATRASADOS...  </b-link>
+			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> QUANTO TEMPO VOCÊ PERDE VERIFICANDO PAGAMENTOS? OU COBRANDO OS ATRASADOS...  </b-link>
 				</div>
 
 				<div class="col-lg-12">
@@ -40,11 +40,11 @@
 				</div>
 
 			</div>
-
-			<div class="row mt-2">
+			<hr>
+			<div class="row mt-4">
 				<div class="col-lg-12">
 					<b-link v-b-toggle.collapse-3 variant="primary" class="button text-left text-subtitulo imo-text-06 button-solucoes">
-			  <span class="imo-text-06"><i class="fas fa-chevron-circle-down"></i></span> PERSONALIZADO E PESSOAL! PESSOAS ATENDENDO PESSOAS </b-link>
+			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> PERSONALIZADO E PESSOAL! PESSOAS ATENDENDO PESSOAS </b-link>
 				</div>
 
 				<div class="col-lg-12">
@@ -65,7 +65,7 @@
             	<div class="row mt-2">
 				<div class="col-lg-12">
 					<b-link v-b-toggle.collapse-4 variant="primary" class="button text-left text-subtitulo imo-text-06 button-solucoes">
-			  <span class="imo-text-06"><i class="fas fa-chevron-circle-down"></i></span> SABE AQUELE PAGAMENTO QUE VOCÊ PRECISA COBRAR? NÓS FAZEMOS ISSO PARA VOCÊ! </b-link>
+			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> SABE AQUELE PAGAMENTO QUE VOCÊ PRECISA COBRAR? NÓS FAZEMOS ISSO PARA VOCÊ! </b-link>
 				</div>
 
 				<div class="col-lg-12">
@@ -77,11 +77,11 @@
 				</div>
 
 			</div>
-			  
-			  <div class="row mt-2">
+			  <hr>
+			  <div class="row mt-4">
 				<div class="col-lg-12">
 					<b-link v-b-toggle.collapse-5 variant="primary" class="button text-left text-subtitulo imo-text-06 button-solucoes">
-			  <span class="imo-text-06"><i class="fas fa-chevron-circle-down"></i></span> QUANTO TEMPO VOCÊ PERDE VERIFICANDO PAGAMENTOS? OU COBRANDO OS ATRASADOS... </b-link>
+			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> QUANTO TEMPO VOCÊ PERDE VERIFICANDO PAGAMENTOS? OU COBRANDO OS ATRASADOS... </b-link>
 				</div>
 
 				<div class="col-lg-12">
@@ -93,11 +93,11 @@
 				</div>
 
 			</div>
-
-			<div class="row mt-2">
+			<hr>
+			<div class="row mt-4">
 				<div class="col-lg-12">
 					<b-link v-b-toggle.collapse-6 variant="primary" class="button text-left text-subtitulo imo-text-06 button-solucoes">
-			  <span class="imo-text-06"><i class="fas fa-chevron-circle-down"></i></span> PERSONALIZADO E PESSOAL! PESSOAS ATENDENDO PESSOAS </b-link>
+			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> PERSONALIZADO E PESSOAL! PESSOAS ATENDENDO PESSOAS </b-link>
 				</div>
 
 				<div class="col-lg-12">

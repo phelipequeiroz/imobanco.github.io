@@ -19,17 +19,17 @@
 					  </b-card>
 					</div>
 				</div>
-				<div class="col-lg-10 pt-3">
+				<!-- <div class="col-lg-10 pt-3">
 					<div>
   <b-navbar toggleable="lg" type="dark" variant="info" class="bg-nav">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-       <!-- Right aligned nav items -->
+      Right aligned nav items
       <b-navbar-nav class="ml-auto pt-2">
       	<router-link to="/"><span class="imo-text-06 pl-2 pr-2">HOME</span></router-link>
         <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">CONTATO</span></router-link>
-         <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">SOLUÇÕES</span></router-link>
+         <router-link to="/cobrancas"><span class="imo-text-06 pl-2 pr-2">COBRANÇAS</span></router-link>
          <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">E-COMMERCE</span></router-link>
          <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">BLOG</span></router-link>
          <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">CONTATO</span></router-link>
@@ -38,7 +38,7 @@
     </b-collapse>
   </b-navbar>
 </div>
-				</div>
+				</div> --> 
 			</div>
 			</div>
 		</div>
@@ -64,8 +64,6 @@ export default {
 	height: 500px;
 	background-color: #212121;
 }
-.bg-nav{
-	background-color: rgba(10,23,55,0.0) !important;
-}
+
 	
 </style>
