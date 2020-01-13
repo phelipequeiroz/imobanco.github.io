@@ -1,0 +1,125 @@
+/* main css Imobanco Theme */
+
+@import ("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+    
+ /*   .page-enter-active, .page-leave-active {
+        trasition: all 0.9s;
+    }
+    .page-enter, .page-leave-active{
+        opacity: 0;
+        transform: scale(0);
+    }*/
+    .page-enter-active, .page-leave-active {
+  transition: opacity .5s
+    }
+    .page-enter, .page-leave-active {
+      opacity: 0
+    }
+
+    /*.bounce-enter-active {
+      animation: bounce-in .8s;
+    }
+    .bounce-leave-active {
+      animation: bounce-out .5s;
+    }
+    @keyframes bounce-in {
+      0% { transform: scale(0) }
+      50% { transform: scale(1.5) }
+      100% { transform: scale(1) }
+    }
+    @keyframes bounce-out {
+      0% { transform: scale(1) }
+      50% { transform: scale(1.5) }
+      100% { transform: scale(0) }
+    }*/
+
+    .container-fluid{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+   
+    .solucoes{
+        
+    }
+    .newsletter{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .blog{
+        height: 400px;
+    }
+    
+    .depoimentos{
+        height: 300px;
+    }
+    .footer{
+        height: 300px;
+    }
+    .imobanco-color-01{
+        background-color: #212121 !important;
+    }
+    .imobanco-color-02{
+        background-color: #001335 !important;
+    }
+    .imobanco-color-03{
+        background-color: #04107c !important;
+    }
+    .imobanco-color-04{
+        background-color: #06cece !important;
+    }
+    .imobanco-color-05{
+        background-color: #e8e8e8 !important;
+    }
+    .imobanco-color-06{
+        background-color: #ffffff !important;
+    }
+    
+    .imo-text-01{
+        color: #212121 !important;
+    }
+    .imo-text-02{
+        color: #001335 !important;
+    }
+    .imo-text-03{
+        color: #04107c !important;
+    }
+    .imo-text-04{
+        color: #06cece !important;
+    }
+    .imo-text-05{
+        color: #e8e8e8 !important;
+    }
+    .imo-text-06{
+        color: #ffffff !important;
+    }
+    .imo-text-07{
+        color: #353535 !important;
+    }
+    
+    .button-radius{
+        border-radius: 30px !important;
+        border: 1px #06cece solid !important;
+    }
+    .form-control{
+        border-radius: 30px !important;
+        border: 1px #06cece solid !important;
+        background-color: 
+    }
+    .control-form{
+        background-color: rgba(6,0,101,0.1) !important;
+    }
+    .text-titulo{
+        font-family: 'Poppins', sans-serif;
+    ;
+        font-weight: 900;
+    }
+    .text-subtitulo{
+        font-family: 'Poppins', sans-serif;
+    
+        font-weight: 700;
+    }
+    .text-content{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }

@@ -1,12 +1,22 @@
-# Default starter for Gridsome
+# site-imobanco
 
-This is the project you get when you run `gridsome create new-project`.
+> Site Imobanco
 
-### 1. Install Gridsome CLI tool if you don't have
+## Build Setup
 
-`npm install --global @gridsome/cli
+``` bash
+# install dependencies
+$ npm run install
 
-### 2. Start develop
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-1. `gridsome develop` to start a local dev server at `http://localhost:8080`
-2. `don't forget to npm install everytime you pull a new version`
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
