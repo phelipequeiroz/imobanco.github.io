@@ -1,8 +1,30 @@
 <template>
   <div>
+    <!-- Component default pages -->
+    <navbar />
     <nuxt />
+     <media />
+  <!--   <depoimento /> -->
+    <footer-index />
+
   </div>
 </template>
+
+<script>
+  import Navbar from '@/components/Navbar.vue'
+  import Media from '@/components/index/media/Media.vue'
+  // import Depoimento from '@/components/index/depoimento/Depoimento.vue'
+  import FooterIndex from '@/components/index/footer/FooterIndex.vue'
+
+  export default {
+  components: {
+    Navbar,
+    Media,
+    FooterIndex
+  }
+}
+</script>
+
 
 <style>
 html {

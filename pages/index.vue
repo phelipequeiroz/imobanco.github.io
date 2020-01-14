@@ -1,44 +1,32 @@
 <template>
     <div>
-    <barralogin />
-    
-    <headerindex />
+       
+    <header-slide />
     <!-- Component servicos -->
-    <servicos />
+    <services />
     <solucao />
     <newsletter />
     <blog />
-    <midia />
-  <!--   <depoimento /> -->
-    <footer-index />
     </div> 
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue';
-import Headerindex from '~/components/Headerindex.vue';
-import Barralogin from '@/components/Barralogin.vue'
-import Servicos from '@/components/index/servicos/Servicos.vue'
+import HeaderSlide from '~/components/HeaderSlide.vue';
+import Services from '@/components/index/services/Services.vue'
 import Solucao from '@/components/index/solucoes/Solucao.vue'
 import Newsletter from '@/components/index/newsletter/Newsletter.vue'
 import Blog from '@/components/index/blog/Blog.vue'
-import Midia from '@/components/index/midia/Midia.vue'
-import Depoimento from '@/components/index/depoimento/Depoimento.vue'
-import FooterIndex from '@/components/index/footer/FooterIndex.vue'
 
 
 export default {
   components: {
     Logo,
-    Headerindex,
-    Barralogin,
-    Servicos,
+    HeaderSlide,
+    Services,
     Solucao,
     Newsletter,
     Blog,
-    Midia,
-    Depoimento,
-    FooterIndex
 
   }
 }
