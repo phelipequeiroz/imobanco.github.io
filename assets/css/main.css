@@ -10,7 +10,7 @@
         transform: scale(0);
     }*/
     .page-enter-active, .page-leave-active {
-  transition: opacity .5s
+  transition: /*opacity*/ linear .5s
     }
     .page-enter, .page-leave-active {
       opacity: 0
@@ -39,9 +39,6 @@
     }
 
    
-    .solucoes{
-        
-    }
     .newsletter{
         padding: 0px !important;
         margin: 0px !important;
@@ -56,6 +53,8 @@
     .footer{
         height: 300px;
     }
+
+    /* Background color */
     .imobanco-color-01{
         background-color: #212121 !important;
     }
@@ -77,10 +76,14 @@
     .imobanco-color-07{
         background-color: #304ffe;
     }
+<<<<<<< HEAD
     .imobanco-color-08{
         background-color: #bdbdbd;
     }
 
+=======
+    /* Color Text */
+>>>>>>> ccb91bc72351425ffa87704b89a5c6840c1bae50
     .imo-text-01{
         color: #212121 !important;
     }
@@ -128,4 +131,11 @@
     .text-content{
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
+    }
+    .bg-nav{
+    background-color: rgba(10,23,55,0.0) !important;    
+    }
+
+    .icon-text{
+        font-size: 25px;
     }
