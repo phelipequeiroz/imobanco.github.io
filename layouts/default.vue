@@ -1,50 +1,32 @@
 <template>
   <div>
-<<<<<<< HEAD
-    <!-- Component default pages -->
-=======
->>>>>>> ccb91bc72351425ffa87704b89a5c6840c1bae50
     <navbar />
     <nuxt />
      <media />
-  <!--   <depoimento /> -->
     <footer-index />
-<<<<<<< HEAD
+
 
   </div>
 </template>
 
+ 
 <script>
   import Navbar from '@/components/Navbar.vue'
   import Media from '@/components/index/media/Media.vue'
-  // import Depoimento from '@/components/index/depoimento/Depoimento.vue'
-=======
-  </div>
-</template>
-<script>
-  import Navbar from '@/components/Navbar.vue'
-  import Media from '@/components/index/media/Media.vue'
-  import Depoimento from '@/components/index/depoimento/Depoimento.vue'
->>>>>>> ccb91bc72351425ffa87704b89a5c6840c1bae50
   import FooterIndex from '@/components/index/footer/FooterIndex.vue'
 
   export default {
   components: {
     Navbar,
     Media,
-<<<<<<< HEAD
-=======
-    Depoimento,
->>>>>>> ccb91bc72351425ffa87704b89a5c6840c1bae50
     FooterIndex
   }
 }
 </script>
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ccb91bc72351425ffa87704b89a5c6840c1bae50
+
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
