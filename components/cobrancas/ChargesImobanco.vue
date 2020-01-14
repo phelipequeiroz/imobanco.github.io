@@ -69,20 +69,4 @@
 	    background: -o-linear-gradient(left,  rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
 	    background: linear-gradient(to right, rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);*/
 	}
-
-	.skew-neg {
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-	}
-
-	.skew-pos {
-    -webkit-transform: skewY(5deg);
-    -moz-transform: skewY(5deg);
-    -ms-transform: skewY(5deg);
-    -o-transform: skewY(5deg);
-    transform: skewY(5deg);
-	}
 </style>
