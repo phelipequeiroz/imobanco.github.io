@@ -1,13 +1,12 @@
 <template>
-	<section class="imobanco-color-08" :style="cssMedia">
+	<section class="imobanco-color-08 ecommerce" >
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<h3 class="mt-5 mb-5 imo-text-07 text-content">Com o <span class="text-subtitulo">E-commerce Imobanco</span> você ganha sua loja na internet sem qualquer investimento, pagando uma taxa por transação, que varia de acordo com o volume de faturamento.</h3>
-					
+			<div class="row justify-content-center">
+				<div class="col-lg-4 pt-5 pb-5 mt-5 mb-5 text-center">
+					<h1 class=" imo-text-07 text-titulo ">E-commerce</h1>
 				</div>
-				<div class="col-lg-6">
-					<img src="~/assets/image/ecommercegirl.png" alt="" class="img-fluid">					
+				<div class="col-lg-4 pt-5 pb-5">
+					
 				</div>
 			</div>
 		</div>
@@ -24,7 +23,7 @@
       return {
         cssMedia: {
           // backgroundImage: `url(${require('@/assets/image/connected.png')})`
-           backgroundImage: `url(${require('@/assets/image/asfalt-light.png')})`
+        	// backgroundImage: `url(${require('@/assets/image/banner-ecommerce.png')})`
         }
       }
     }
@@ -43,4 +42,11 @@
 	    background: linear-gradient(to right, rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
 	}
 	*/
+	.ecommerce{
+		background-image: url("~assets/image/ecommerce-page.jpg");
+		background-size: 100% auto cover;
+        background-position: center top;
+       	background-repeat: no-repeat;
+        background-attachment: fixed;
+	}
 </style>
