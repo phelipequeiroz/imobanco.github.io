@@ -5,7 +5,7 @@
     <ecommerce-top />
     <ecommerce-text />
     <ecommerce-content />
-    <charges-agreement />
+    <ecommerce-grafic />
     </div>
   </div>
 </template>
@@ -15,9 +15,8 @@
 import EcommerceTop from '@/components/ecommerce/EcommerceTop.vue'
 import EcommerceText from '@/components/ecommerce/EcommerceText.vue'
 import EcommerceContent from '@/components/ecommerce/EcommerceContent.vue'
+import EcommerceGrafic from '@/components/ecommerce/EcommerceGrafic.vue'
 
-import ChargesAgreement from '@/components/charges/ChargesAgreement.vue'
-// import FooterIndex from '@/components/index/footer/FooterIndex.vue'
 
 export default {
   components: {
@@ -26,7 +25,8 @@ export default {
    EcommerceTop,
    EcommerceText,
    EcommerceContent,
-   ChargesAgreement
+   EcommerceGrafic
+   
     
   }
 }
