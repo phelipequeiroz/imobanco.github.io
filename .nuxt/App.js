@@ -20,7 +20,7 @@ import _6f6c098b from '../layouts/default.vue'
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"site-imobanco","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Site Imobanco"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Poppins:300,400,500,500i,700,800,900i&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.11.2\u002Fcss\u002Fall.css"}],"style":[],"script":[]},
+  head: {"title":"IMOBANCO | Gestão de Recebíveis","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Imobanco | Gestão de Recebíveis"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Poppins:300,400,500,500i,700,800,900i&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.11.2\u002Fcss\u002Fall.css"}],"style":[],"script":[]},
 
   render (h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
