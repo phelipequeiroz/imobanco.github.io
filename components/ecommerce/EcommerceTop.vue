@@ -5,10 +5,10 @@
 				<div class="col-lg-4 pt-5 pb-5 mt-5 mb-5 text-center">
 					<h1 class=" imo-text-07 text-titulo ">E-commerce</h1>
 				</div>
-				<div class="col-lg-4 pt-5 pb-5">
-					
-				</div>
 			</div>
+		</div>
+		<div>
+			<img src="~/assets/image/detalheslide.png" alt="" class="img-fluid">
 		</div>
 	</section>
 </template>
