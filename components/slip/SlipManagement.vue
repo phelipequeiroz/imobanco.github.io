@@ -1,10 +1,10 @@
 <template>
-	<section class="imobanco-color-01">
+	<section class="imobanco-color-05">
 		<div class="container">
 			<div class="row pt-5 pb-5">
 				<div class="col-lg-6">
-					<h2>O que é a gestão inteligente de recebíveis</h2>
-					<p>
+					<h4 class="text-subtitulo">O que é a gestão inteligente de recebíveis</h4>
+					<p class="text-content text-justify">
 						Serviço Imobanco feito para reduzir a complexidade da gestão de recebimentos, emissão e organização de boletos, de forma estratégica e através de dados e gráficos em tempo real.
 
 Emita, registre e acompanhe cada etapa dos seus boletos de forma simples e prática. 

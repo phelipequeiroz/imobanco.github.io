@@ -1,5 +1,5 @@
 <template>
-	<section class="imobanco-color-02">
+	<section class="footer-bg">
 		<div class="container">
 		<div class="row pt-4 pb-4">
             

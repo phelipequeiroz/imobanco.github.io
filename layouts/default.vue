@@ -62,7 +62,11 @@ html {
         background-position: center top;
         background-repeat: no-repeat;
     }
-.roudedtop{
-    border-radius: 30px 30px 0px 30px;
-  }
+.footer-bg{
+      background: rgb(2,45,97);
+      background: -webkit-linear-gradient(bottom, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
+      background: -o-linear-gradient(bottom, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
+      background: linear-gradient(to top, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
+}
+
 </style>
