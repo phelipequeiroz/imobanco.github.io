@@ -1,251 +1,81 @@
 <template>
-	<div>
-		<div class="border-table pt-4 pb-4 pl-2 pr-2">
-						<table class="table table-borderless table-stripe table-hover" style="border-radius: 30px !important;">
-					  <thead>
-					    <tr class="imobanco-color-03" style="border-radius: 30px !important;">
-					      <th class="imo-text-06 text-subtitulo" scope="col">Planos de Serviços</th>
-					      <th class="imo-text-06 text-subtitulo" scope="col">Reserva</th>
-					      <th class="imo-text-06 text-subtitulo" scope="col">Multiplus</th>
-					      <th class="imo-text-06 text-subtitulo" scope="col">Business</th>
-					      <th class="imo-text-06 text-subtitulo" scope="col">Mercado</th>
-					      <th class="imo-text-06 text-subtitulo" scope="col">FULLWallet</th>
-					    </tr>
-					  </thead>
-					  <thead class="">
-					    <tr >
-					      <th class="imo-text-06" scope="col">Volume mínimo de emissões por pacote</th>
-					      <th class="imo-text-06" scope="col">#+500 emissões</th>
-					      <th class="imo-text-06" scope="col">#+1 emissão</th>
-					      <th class="imo-text-06" scope="col">#+1 emissão</th>
-					      <th class="imo-text-06" scope="col">#+1 emissão</th>
-					      <th class="imo-text-06" scope="col">#+1 emissão</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					<tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content">Emissão de título</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-					    
-					    <tr>
-					      <th class="imo-text-06 text-content"><strong class="text-subtitulo">Registro bancário</strong> de titulo em conta bancária própria</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><strong class="text-subtitulo">Registro bancário</strong> de titulo em carteira imobanco</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr>
-					      <th class="imo-text-06 text-content"><strong class="text-subtitulo">Controle dos títulos</strong> emitidos, com acesso fulltime a plataforma <br>
-					      web imobanco, sem custo adicional por usuarios</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content">Crédito em conta dos valores recebidos</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-						
-						<tr>
-					      <th class="imo-text-06 text-content"><strong class="text-subtitulo">Split de pagamentos</strong> - Divisão dos valores recebidos entre o <br>
-					      credor e beneficiários, sem limite máximo de destinatários do numerário</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><strong class="text-subtitulo">Emissão de comunicados</strong> eletrônicos
-					      </th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Emissão</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Vencimento</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Lembrete de data de vencimento</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Quitação</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    
-					    <tr class="">
-					      <th class="imo-text-06 text-content"><span class="text-subtitulo">Cobrança Eletrônica</span>
-					      </th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					    </tr>
-
-					    <tr class="">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Inadimplência</th>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td>
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Validade de boleto</th>
-					      <td class="text-center"><span class="imo-text-06"></span></td>
-					      <td class="text-center"><span class="imo-text-06"></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Aviso de perda de validado do boleto</th>
-					      <td class="text-center"><span class="imo-text-06"></span></td>
-					      <td class="text-center"><span class="imo-text-06"></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="text-subtitulo">Cobrança Administrativa</span>
-					      </th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Aviso de Boleto inválido</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Oferta de novação de dívida</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr class="imobanco-color-09">
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Aviso de futura notificação</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-
-					    <tr>
-					      <th class="imo-text-06 text-content"><span class="text-subtitulo">Cobrança Extra Judicial</span>
-					      </th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					    </tr>
-
-					    <tr>
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Notificação extra judicial</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr>
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Aviso de ação judicial</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    <tr>
-					      <th class="imo-text-06 text-content"><span class="imo-text-06" style="font-size: 8px;"><i class="fas fa-circle"></i></span> Acordo extra judicial</th>
-					      <td class="text-center"></td>
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"></td> 
-					      <td class="text-center"><span class="imo-text-06"><i class="far fa-check-circle"></i></span></td> 
-					    </tr>
-
-					    </tbody>
-					</table>
+	<div class="border-table pt-4 pb-4 pl-2 pr-2">
+		<b-table :items="items" :fields="fields" class='table table-borderless table-hover' striped caption-top>
+			<template v-slot:cell(reserva)="data">
+				<span v-if="data.value!='true'"> {{ data.value === 'false' ? '' : data.value }} </span>
+				<i v-else 
+					v-bind:class="'far fa-check-circle'">
+				</i>
+			</template>
+			<template v-slot:cell(multiplus)="data">
+				<span v-if="data.value!='true'"> {{ data.value === 'false' ? '' : data.value }} </span>
+				<i v-else 
+					v-bind:class="'far fa-check-circle'">
+				</i>
+			</template>
+			<template v-slot:cell(business)="data">
+				<span v-if="data.value!='true'"> {{ data.value === 'false' ? '' : data.value }} </span>
+				<i v-else 
+					v-bind:class="'far fa-check-circle'">
+				</i>
+			</template>
+			<template v-slot:cell(mercado)="data">
+				<span v-if="data.value!='true'"> {{ data.value === 'false' ? '' : data.value }} </span>
+				<i v-else 
+					v-bind:class="'far fa-check-circle'">
+				</i>
+			</template>
+			<template v-slot:cell(fullwallet)="data">
+				<span v-if="data.value!='true'"> {{ data.value === 'false' ? '' : data.value }} </span>
+				<i v-else 
+					v-bind:class="'far fa-check-circle'">
+				</i>
+			</template>
+		</b-table>
 	</div>
-</div>
 </template>
-
-<script></script>
+<script>
+	export default {
+		data () {
+			return {
+				fields: [
+					{key: 'plano_de_servicos', label: 'Plano de Serviços', tdClass: 'imo-text-06'},
+					{key: 'reserva', tdClass: 'text-center imo-text-06'},
+					{key: 'multiplus', tdClass: 'text-center imo-text-06'},
+					{key: 'business', tdClass: 'text-center imo-text-06'},
+					{key: 'mercado', tdClass: 'text-center imo-text-06'},
+					{key: 'fullwallet', tdClass: 'text-center imo-text-06', label: 'Full Wallet'}
+				],
+				items: [
+					{ plano_de_servicos: 'Volume mínimo de emissões por pacote', reserva: '#+500 emissões', multiplus: '#+1 emissões', business: '#+1 emissões', mercado: '#+1 emissões', fullwallet: '#+1 emissões' },
+					{ plano_de_servicos: 'Emissão de Títulos', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Registro Bancário de títulos em conta bancária própria', reserva: 'true' },
+					{ plano_de_servicos: 'Registro Bancário de título em carteira', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Controle dos títulos emitidos, com acesso fulltime a plataforma', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Crédito em conta dos valores recebidos', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Split de pagamentos - Divisão dos valores recebidos entre o credor e beneficiários, sem limite máximo de destinatários do numerário', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Emissão de comunicados</strong> eletrônicos', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Emissão', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Vencimento', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Lembrete da data de vencimento', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Quitação', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Cobrança Eletrônica', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Inadimplência', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Validade de boleto', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Aviso de perda de validado do boleto', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Cobrança Administrativa', reserva: 'true', multiplus: 'true', business: 'true', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Aviso de Boleto inválido', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Oferta de novação de dívida', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Aviso de futura notificação', mercado: 'true', fullwallet: 'true' },
+					{ plano_de_servicos: 'Cobrança Extra Judicial' },
+					{ plano_de_servicos: 'Notificação extra judicial', fullwallet: 'true' },
+					{ plano_de_servicos: 'Aviso de ação judicial', fullwallet: 'true' },
+					{ plano_de_servicos: 'Acorod extra judicial', fullwallet: 'true' },
+				]
+			}
+		}
+	}
+</script>
 <style>
 	
 </style>
