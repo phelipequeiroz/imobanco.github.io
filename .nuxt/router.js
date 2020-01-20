@@ -7,6 +7,7 @@ const _79bc22ba = () => interopDefault(import('../pages/charges/index.vue' /* we
 const _d5f42af2 = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
 const _31ef254a = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
 const _5752610a = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
+const _33d66a3b = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
 const _00184c8a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -41,6 +42,10 @@ export const routerOptions = {
     path: "/ecommerce",
     component: _5752610a,
     name: "ecommerce"
+  }, {
+    path: "/slip",
+    component: _33d66a3b,
+    name: "slip"
   }, {
     path: "/",
     component: _00184c8a,

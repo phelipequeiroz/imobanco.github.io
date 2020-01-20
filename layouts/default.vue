@@ -62,5 +62,7 @@ html {
         background-position: center top;
         background-repeat: no-repeat;
     }
-
+.roudedtop{
+    border-radius: 30px 30px 0px 30px;
+  }
 </style>

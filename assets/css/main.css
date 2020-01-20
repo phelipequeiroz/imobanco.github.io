@@ -80,6 +80,9 @@
     .imobanco-color-08{
         background-color: #bdbdbd;
     }
+    .imobanco-color-09{
+        background-color: #2947db;
+    }
 
 
     /* Color Text */
@@ -104,6 +107,9 @@
     }
     .imo-text-07{
         color: #353535 !important;
+    }
+    .imo-text-08{
+        color: #0088e3 !important;
     }
     
     .button-radius{

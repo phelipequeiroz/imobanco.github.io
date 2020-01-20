@@ -16,6 +16,7 @@
                   <router-link to="/"><span class="imo-text-06 pl-2 pr-2">HOME</span></router-link>
                   <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">CONTATO</span></router-link>
                    <router-link to="/charges"><span class="imo-text-06 pl-2 pr-2">COBRANÇAS</span></router-link>
+                  <router-link to="/slip"><span class="imo-text-06 pl-2 pr-2">BOLETO</span></router-link>
                    <router-link to="/ecommerce"><span class="imo-text-06 pl-2 pr-2">E-COMMERCE</span></router-link>
                    <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">BLOG</span></router-link>
                    <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">CONTATO</span></router-link>
