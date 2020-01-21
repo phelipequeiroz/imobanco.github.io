@@ -58,6 +58,5 @@
 }
 .color-gradient-login{
     background: rgb(4,95,170);
-    background: linear-gradient(90deg, rgba(4,95,170,1) 0%, rgba(2,45,96,1) 100%);
     }
 </style>

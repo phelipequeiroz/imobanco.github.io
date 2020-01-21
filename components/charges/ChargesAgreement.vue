@@ -1,13 +1,13 @@
 <template>
 	<section class="chargesagreement imobanco-color-07" :style="cssMedia"  >
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
 					<h5 class="mt-5 imo-text-06 text-subtitulo text-center">TODOS OS ACORDOS PODEM SER PAGOS EM BOLETOS OU PARCELADOS NO CARTÃO DE CRÉDITO</h5>
 					
 					
 				</div>
-				<div class="col-lg-6 mt-3">
+				<div class="col-lg-8 mt-3">
 					
 					<p class="text-content imo-text-06"><span class="icon-text mr-2"><i class="fas fa-clock"></i></span>Economize tempo e dinheiro com o Imobanco</p>
 

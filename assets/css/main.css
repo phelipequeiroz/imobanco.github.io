@@ -111,6 +111,9 @@
     .imo-text-08{
         color: #0088e3 !important;
     }
+    .imo-text-09{
+       color: #304ffe !important;
+    }
     
     .button-radius{
         border-radius: 30px !important;
@@ -145,3 +148,4 @@
     .icon-text{
         font-size: 25px;
     }
+    

@@ -1,14 +1,11 @@
 <template>
-	<section class="imobanco-color-08 ecommerce" >
+	<section class="slideecommerce " >
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-4 pt-5 pb-5 mt-5 mb-5 text-center">
 					<h1 class=" imo-text-07 text-titulo ">E-commerce</h1>
 				</div>
 			</div>
-		</div>
-		<div>
-			<img src="~/assets/image/detalheslide.png" alt="" class="img-fluid">
 		</div>
 	</section>
 </template>
@@ -23,7 +20,7 @@
       return {
         cssMedia: {
           // backgroundImage: `url(${require('@/assets/image/connected.png')})`
-        	// backgroundImage: `url(${require('@/assets/image/banner-ecommerce.png')})`
+        backgroundImage: `url(${require('@/assets/image/bgecommerce.jpg')})`
         }
       }
     }
@@ -42,11 +39,12 @@
 	    background: linear-gradient(to right, rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
 	}
 	*/
-	.ecommerce{
-		background-image: url("~assets/image/ecommerce-page.jpg");
+	.slideecommerce{
+		height: 500px;
+		background-image: url("~assets/image/bgecommerce.jpg") !important;
+		background: #212121;
 		background-size: 100% auto cover;
         background-position: center top;
        	background-repeat: no-repeat;
-        background-attachment: fixed;
 	}
 </style>

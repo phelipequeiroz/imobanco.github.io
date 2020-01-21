@@ -1,9 +1,9 @@
 <template>
 	<section class="imobanco-color-06">
 		<div class="container">
-			<div class="row pt-5 pb-5">
-				<div class="col-lg-12 text-center">
-				<h5 class="mt-5 imo-text-07 text-subtitulo text-center font-italic">Reduza a complexidade da sua gestão de recebimentos.</h5>
+			<div class="row justify-content-center pt-5 pb-2">
+				<div class="col-lg-6 text-center">
+				<h2 class="imo-text-09 text-content text-center ">Reduza a complexidade da sua gestão de recebimentos.</h2>
 			</div>
 			</div>
 		</div>

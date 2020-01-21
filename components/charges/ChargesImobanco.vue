@@ -1,8 +1,8 @@
 <template>
 	<section class="chargesimobanco imobanco-color-07" :style="cssMedia"  >
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
 					<h5 class="mt-5 imo-text-06 text-subtitulo text-center">COMO SE DÁ A RECUPERAÇÃO DE CRÉDITO (ACORDOS) NO IMOBANCO?</h5>
 					<p class="text-content imo-text-06 text-center">Durante as etapas do processo de cobrança, seus créditos estarão sendo monitorados e tratados por nossos gerentes de contas e operadores, sendo realizada diversas interações com seus clientes, como:</p>
 					
@@ -23,10 +23,6 @@
 					
 					<p class="text-content imo-text-06"><span class="icon-text mr-2"><i class="fas fa-file-audio"></i></span>Mensagens gravadas de áudio</p>
 
-				</div>
-
-				<div class="col-lg-6">
-										
 					<p class="text-content imo-text-06"><span class="icon-text mr-2"><i class="fas fa-exclamation-circle"></i></span>Notificação de cobrança</p>
 
 										
