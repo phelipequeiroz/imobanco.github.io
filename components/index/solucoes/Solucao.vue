@@ -1,6 +1,6 @@
 <template>
 
-<section class="solucoes imobanco-color-02">
+<section class="solucoes solucoes2 imobanco-color-09">
 		<div class="container">
 			<div class="row pt-4 pb-4">
 			<div class="col-lg-12 text-center mb-4">
@@ -136,13 +136,24 @@
 </script>
 
 <style>
-	.button-solucoes{
+	/*.button-solucoes{
 	background-color: rgba(10,23,55,0.0) !important;
-	}
+	}*/
 	.card-imo{
 	background-color: rgba(10,23,55,0.3) !important;
 
 	}
-	
-	 	
+	.solucoes2{
+		background-image: url("~assets/image/bgsolucoes2.png") !important;
+        background-size: 100% auto cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+	.solucoes{
+        background-image: url("~assets/image/bgsolucoes.jpg")!important; 
+        background-size: 100% auto cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+ 	
 </style>

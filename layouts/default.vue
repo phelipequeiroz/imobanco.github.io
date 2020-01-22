@@ -48,20 +48,8 @@ html {
 }
 
 
-.solucoes{
-        background-image: url("../assets/image/bgsolucoes.jpg"); 
-        background-size: 100% auto cover;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
 
-.servicos{
-       /* background-image: url("../assets/image/bgservicos.jpg");*/
-        background-size: 100% auto cover;
-        background-position: center top;
-        background-repeat: no-repeat;
-    }
+
 .footer-bg{
       background: rgb(2,45,97);
       background: -webkit-linear-gradient(bottom, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
