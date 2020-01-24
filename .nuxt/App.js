@@ -15,6 +15,8 @@ import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 
 import '../assets/css/main.css'
 
+import '../assets/css/animate.css'
+
 import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }

@@ -4,7 +4,9 @@
     <section class="login color-gradient-login">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2"></div>
+        <div class="col-lg-2 pt-4">
+          <router-link to="/"><img src="~assets/image/logoimobanco.png" alt=""></router-link>
+        </div>
         <div class="col-lg-10 pt-3">
           <div>
             <b-navbar toggleable="lg" type="dark" variant="info" class="bg-nav">
@@ -17,8 +19,8 @@
                   <router-link to="/charges"><span class="imo-text-06 pl-2 pr-2">COBRANÇAS</span></router-link>
                   <router-link to="/slip"><span class="imo-text-06 pl-2 pr-2">BOLETO</span></router-link>
                   <router-link to="/ecommerce"><span class="imo-text-06 pl-2 pr-2">E-COMMERCE</span></router-link>
-                  <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">BLOG</span></router-link>
-                  <router-link to="/contato"><span class="imo-text-06 pl-2 pr-2">CONTATO</span></router-link>
+                  <router-link to="/contact"><span class="imo-text-06 pl-2 pr-2">BLOG</span></router-link>
+                  <router-link to="/contact"><span class="imo-text-06 pl-2 pr-2">CONTATO</span></router-link>
                   
                 </b-navbar-nav>
               </b-collapse>
