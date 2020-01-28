@@ -10,35 +10,11 @@ gestão financeira do seu negócio</p>
 			</div>
             </div>
             <div class="row">
+                
                 <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="services-single">
-                        <div class="content-area">
-                           <div class="side-one">
-                               <div class="card card-services">
-                                   <div class="card-body text-center">
-                                       <div class="img-area">
-                                           <img src="~assets/image/boletoicon.png" class="iconservicos">
-                                       </div>
-                                       <content-servicos
-                                        title="BOLETO"
-                                        content="Emita, registre e gerencie seus boletos. Tudo de forma simplificada e sem burocracia. Com o imobanco você tem tudo isso ao seu alcance na palma da sua mão" />
-                                   </div>
-                               </div>
-                           </div>
-
-                           <div class="side-tow">
-                               <div class="card card-services">
-                                   <div class="card-body text-center">
-                                       <content-servicos
-                                        content="Com o imobanco você tem tudo isso ao seu alcance na palma da sua mão" />
-                                   </div>
-                               </div>
-                           </div>
-
-  
-                        </div>
-                    </div>
+                   
                 </div>
+            
 
                 <!-- Colun Cobrança -->
 

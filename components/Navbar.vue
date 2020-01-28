@@ -4,10 +4,10 @@
     <section class="login color-gradient-login">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 pt-4">
+        <div class="col-lg-2 col-md-9  pt-4">
           <router-link to="/"><img src="~assets/image/logoimobanco.png" alt=""></router-link>
         </div>
-        <div class="col-lg-10 pt-3">
+        <div class="col-lg-10 col-md-3 align-self-end pt-3">
           <div>
             <b-navbar toggleable="lg" type="dark" variant="info" class="bg-nav">
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

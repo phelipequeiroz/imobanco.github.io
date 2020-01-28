@@ -1,8 +1,10 @@
 <template>
   <div class="container-fluid">
     <div>
-		
+		<contact-slide />
 		<contact-content />
+		<contact-question />
+		
 
     </div>
   </div>
@@ -10,12 +12,16 @@
 
 <script>
 import ContactContent from '@/components/contact/ContactContent.vue'
+import ContactQuestion from '@/components/contact/ContactQuestion.vue'
+import ContactSlide from '@/components/contact/ContactSlide.vue'
 
 
 export default {
   components: {
    
-   ContactContent
+   ContactContent,
+   ContactQuestion,
+   ContactSlide
   
     
   }

@@ -15,16 +15,16 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="~assets/image/slide01.jpg"
+        img-src="~assets/image/bannerindex-boleto.jpg"
       ></b-carousel-slide>
 		
-		<!-- Text slides with image -->
+    <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="~assets/image/slide02.jpg"
+        img-src="~assets/image/bannerindex-ecommerce.jpg"
+      ></b-carousel-slide>
+    <!-- Text slides with image -->
+      <b-carousel-slide
+        img-src="~assets/image/bannerindex-cobrancas.jpg"
       ></b-carousel-slide>
       
 
