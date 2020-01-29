@@ -2,8 +2,8 @@
 
     <div>
                 
-        <h4 class=" imo-text-06 text-titulo">{{ title }}</h4>
-        <p class="imo-text-06 text-content">{{ content }}</p>
+        <h4 class=" imo-text-08 text-titulo">{{ title }}</h4>
+        <p class="imo-text-07 text-content service-text">{{ content }}</p>
     </div>
 			
 
@@ -21,8 +21,10 @@ export default{
 
 .size{
     text-align: center;
-    font-size: 40px;
-    
+    font-size: 40px;   
+}
+.service-text{
+    font-size: 12px;
 }
 
 

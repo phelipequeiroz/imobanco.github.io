@@ -3,7 +3,7 @@
 	<div>
 		<img src="assets/image/blog.png" alt="" class="img-fluid">
         
-        <h4 class="imo-text-02 text-titulo mt-0 mb-0">{{ title }}</h4>
+        <h4 class="imo-text-08 text-subtitulo mt-0 mb-0">{{ title }}</h4>
         <p class="imo-text-01 text-justify text-content mt-0">{{ content }}</p>
 	</div>
 

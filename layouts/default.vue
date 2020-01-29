@@ -15,6 +15,7 @@
   import Media from '@/components/index/media/Media.vue'
   import FooterIndex from '@/components/index/footer/FooterIndex.vue'
 
+  
   export default {
   components: {
     Navbar,
@@ -47,15 +48,6 @@ html {
   margin: 0;
 }
 
-
-
-
-.footer-bg{
-      background: rgb(2,45,97);
-      background: -webkit-linear-gradient(bottom, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
-      background: -o-linear-gradient(bottom, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
-      background: linear-gradient(to top, rgba(2,45,97,1) 0%, rgba(4,94,169,1) 100%);
-}
 .slideecommerce{
         height: 500px;
         background-image: url("~assets/image/bgecommerce.jpg");

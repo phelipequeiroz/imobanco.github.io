@@ -7,118 +7,83 @@
 				<h2 class="mt-5 imo-text-06 text-titulo">SOLUÇÕES</h2>
 				<p class="text-content imo-text-06">Soluções definitiva para o controle de seus recebimentos</p>
 			</div>
-            
-
-
-            <div class="col-lg-6 p-2">
-			<div class="row mt-2">
-				<div class="col-lg-12">
-					<b-link v-b-toggle.collapse-1 variant="primary" class="button text-left solucoes-text text-content imo-text-06 button-solucoes" size="sm">
-			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> SABE AQUELE PAGAMENTO QUE VOCÊ PRECISA COBRAR? NÓS FAZEMOS ISSO PARA VOCÊ!  </b-link>
-				</div>
-
-				<div class="col-lg-12">
-					<b-collapse id="collapse-1" class="mt-2">
-				    <b-card class="card-imo">
-				      <p class="card-text solucoes-text text-left text-justify card-solucoes imo-text-06">Fazemos a gestão de todos os seus recebimentos, desde pagamentos únicos e valores parcelados, até cobranças mensais recorrentes! Tudo de modo transparente, profissional e pessoal. Economize seu tempo, recursos e evite dores de cabeça.</p>
-				    </b-card>
-			  </b-collapse>
-				</div>
-
 			</div>
-			  <hr class="m-0">
-			  <div class="row">
-				<div class="col-lg-12">
-					<b-link v-b-toggle.collapse-2 variant="primary" class="button text-left solucoes-text text-content imo-text-06 button-solucoes">
-			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> QUANTO TEMPO VOCÊ PERDE VERIFICANDO PAGAMENTOS? OU COBRANDO OS ATRASADOS...  </b-link>
-				</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-5 round1"></div>
+            <div class="col-lg-7 p-2">
+				<div role="tablist">
+    <b-card no-body class="mb-1 button-solucoes">
+      <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
+        <b-button block href="#" v-b-toggle.accordion-1 variant="info" class="contact-collapse imo-text-06 text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Sabe aquele pagamento que você precisa cobrar? Nós fazemos isso para você!</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="card-imo imo-text-06">
+          
+          <b-card-text>{{ text1 }}</b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
 
-				<div class="col-lg-12">
-					<b-collapse id="collapse-2" class="mt-2">
-				    <b-card class="card-imo">
-				      <p class="card-text solucoes-text text-left text-justify card-solucoes imo-text-06">Chega de parar para verificar se pagamentos foram efetuados, ou entrar em contato pessoalmente com seu cliente para cobrar um valor em aberto. Nosso serviço de cobrança vai desde de emissão e envio de boletos, lembretes de pagamento até cobranças, atualização de valores e negociação. Esse profissionalismo gera ótimos resultados com baixíssima inadimplência, bem como preserva sua relação com seu cliente!</p>
-				    </b-card>
-			  </b-collapse>
-				</div>
+    <b-card no-body class="mb-1 button-solucoes">
+      <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
+        <b-button block href="#" v-b-toggle.accordion-2 variant="info" class="contact-collapse imo-text-06 text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Quanto tempo você perde verificando pagamento? Ou cobrando os atrasados...</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="card-imo imo-text-06">
+          <b-card-text>{{ text2 }}</b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
 
-			</div>
+    <b-card no-body class="mb-1 button-solucoes">
+      <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
+        <b-button block href="#" v-b-toggle.accordion-3 variant="info" class="contact-collapse imo-text-06 text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Personalizado e pessoal! Pessoas atendendo pessoas</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="card-imo imo-text-06">
+          <b-card-text>{{ text3 }}</b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
 
-			<hr class="m-0">
+    <b-card no-body class="mb-1 button-solucoes">
+      <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
+        <b-button block href="#" v-b-toggle.accordion-4 variant="info" class="contact-collapse imo-text-06 text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> E se o cliente não pagar? Nós cuidamos disso para você!</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="card-imo imo-text-06">
+          <b-card-text>{{ text4 }}</b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
 
-			<div class="row">
-				<div class="col-lg-12">
-					<b-link v-b-toggle.collapse-3 variant="primary" class="button text-left solucoes-text text-content imo-text-06 button-solucoes">
-			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> PERSONALIZADO E PESSOAL! PESSOAS ATENDENDO PESSOAS </b-link>
-				</div>
+    <b-card no-body class="mb-1 button-solucoes">
+      <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
+        <b-button block href="#" v-b-toggle.accordion-5 variant="info" class="contact-collapse imo-text-06 text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Profissionalismo, tecnologia e resultados! tudo isso adequado ao tamanho do seu negócio.</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="card-imo imo-text-06">
+          <b-card-text>{{ text5 }}</b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
 
-				<div class="col-lg-12">
-					<b-collapse id="collapse-3" class="mt-2">
-				    <b-card class="card-imo">
-				      <p class="card-text solucoes-text text-left text-justify card-solucoes imo-text-06">Nós utilizamos de tecnologia para facilitar ao máximo todos os processos e a transparência para com nossos clientes, mas sabemos muito bem que um atendimento próximo e pessoal gera resultados melhores, e por isso cuidamos dos seus clientes como cuidamos de nós mesmos: com atenção e cuidado pessoal.</p>
-				    </b-card>
-			  </b-collapse>
-				</div>
+    <b-card no-body class="mb-1 button-solucoes">
+      <b-card-header header-tag="header" class="p-1 button-solucoes" role="tab">
+        <b-button block href="#" v-b-toggle.accordion-6 variant="info" class="contact-collapse imo-text-06 text-left button-solucoes"><span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> Completo, não complexo! Você acompanha tudo de modo transparente, o trabalho é com a gente!</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="card-imo imo-text-06">
+          <b-card-text>{{ text6 }}</b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
 
-			</div>
+    </div>
 			
-			<hr class="m-0">
-			<div class="row">
-				<div class="col-lg-12">
-					<b-link v-b-toggle.collapse-4 variant="primary" class="button text-left solucoes-text text-content imo-text-06 button-solucoes">
-			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> E SE O CLIENTE NÃO PAGAR? NÓS CUIDAMOS DISSO PARA VOCÊ!</b-link>
-				</div>
 
-				<div class="col-lg-12">
-					<b-collapse id="collapse-4" class="mt-2">
-				    <b-card class="card-imo">
-				      <p class="card-text text-left text-justify solucoes-text card-solucoes imo-text-06">Boletos enviados, notificações feitas, atualização dos valores em aberto, contato para negociação. Nosso atendimento especializado e pessoal trás excelentes retornos já nessas etapas, mas caso seja necessário temos parceiros na área jurídica a postos para acionar judicialmente cobranças e execuções. Cuidamos de você em todas as etapas!</p>
-				    </b-card>
-			  </b-collapse>
-				</div>
-
+                       
 			</div>
-			  
-			  <hr class="m-0">
-			  <div class="row">
-				<div class="col-lg-12">
-					<b-link v-b-toggle.collapse-5 variant="primary" class="button text-left solucoes-text text-content imo-text-06 button-solucoes">
-			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> PROFISSIONALISMO, TECNOLOGIA E RESULTADOS! TUDO ISSO ADEQUADO AO TAMANHO DO SEU NEGÓCIO.</b-link>
-				</div>
-
-				<div class="col-lg-12">
-					<b-collapse id="collapse-5" class="mt-2">
-				    <b-card class="card-imo">
-				      <p class="card-text text-left text-justify solucoes-text card-solucoes imo-text-06">Não importa o tamanho do seu negócio, temos uma solução adequada para seus recebimentos e cobranças serem conduzido de modo profissional e eficaz! Estamos aqui para sermos seu parceiro, seu setor de recebimento e cobrança terceirizado, e ganharmos sempre juntos!</p>
-				    </b-card>
-			  </b-collapse>
-				</div>
-
-			</div>
-			
-			<hr class="m-0">
-			<div class="row">
-				<div class="col-lg-12">
-					<b-link v-b-toggle.collapse-6 variant="primary" class="button text-left solucoes-text text-content imo-text-06 button-solucoes">
-			  <span class="imo-text-06 mr-4"><i class="fas fa-chevron-circle-down"></i></span> COMPLETO, NÃO COMPLEXO! VOCÊ ACOMPANHA TUDO DE MODO TRANSPARENTE, O TRABALHO É COM A GENTE!</b-link>
-				</div>
-
-				<div class="col-lg-12">
-					<b-collapse id="collapse-6" class="mt-2">
-				    <b-card class="card-imo">
-				      <p class="card-text text-left text-justify solucoes-text card-solucoes imo-text-06">Através de nossos sistemas e canais de atendimento você pode acompanhar claramente como estão todos os seus recebimentos e cobranças. Mas cuidar para que tudo funcione do modo mais eficaz e eficiente é nosso trabalho, você e sua empresa não terão mais com o que se preocupar!</p>
-				    </b-card>
-			  </b-collapse>
-				</div>
-
-			</div>
-
-			</div>
-            
-			<div class="col-lg-6">
-				<img src="~assets/image/bganimationsolution.png" class="img-fluid">
-			</div>
-            
-
 			<div class="col-lg-12 text-center">
 				<h5 class="mt-5 imo-text-06 text-subtitulo text-center font-italic">"Mais importante que te dar tecnologia é promover a solução de teus problemas!"</h5>
 				<p class="imo-text-05 font-italic">Fernando Colares - CEO Imobanco</p>
@@ -131,20 +96,42 @@
 
 </template>
 <script>
+export default {
+    data() {
+      return {
+        text1: `
+           Fazemos a gestão de todos os seus recebimentos, desde pagamentos únicos e valores parcelados, até cobranças mensais recorrentes! Tudo de modo transparente, profissional e pessoal. Economize seu tempo, recursos e evite dores de cabeça.        `,
+        text2: `
+		 Chega de parar para verificar se pagamentos foram efetuados, ou entrar em contato pessoalmente com seu cliente para cobrar um valor em aberto. Nosso serviço de cobrança vai desde de emissão e envio de boletos, lembretes de pagamento até cobranças, atualização de valores e negociação. Esse profissionalismo gera ótimos resultados com baixíssima inadimplência, bem como preserva sua relação com seu cliente!
+		         `,
+        text3: `
+		  Nós utilizamos de tecnologia para facilitar ao máximo todos os processos e a transparência para com nossos clientes, mas sabemos muito bem que um atendimento próximo e pessoal gera resultados melhores, e por isso cuidamos dos seus clientes como cuidamos de nós mesmos: com atenção e cuidado pessoal.
+		          `,
+         text4: 
+		 `Boletos enviados, notificações feitas, atualização dos valores em aberto, contato para negociação. Nosso atendimento especializado e pessoal trás excelentes retornos já nessas etapas, mas caso seja necessário temos parceiros na área jurídica a postos para acionar judicialmente cobranças e execuções. Cuidamos de você em todas as etapas!
+		 `,
+         
+         text5: 
+         ` 
+		Não importa o tamanho do seu negócio, temos uma solução adequada para seus recebimentos e cobranças serem conduzido de modo profissional e eficaz! Estamos aqui para sermos seu parceiro, seu setor de recebimento e cobrança terceirizado, e ganharmos sempre juntos!
+		        `,
 
-// import ContentServicos from '~/components/ContentServicos.vue'
+        text6: 
+         ` 
+		 Através de nossos sistemas e canais de atendimento você pode acompanhar claramente como estão todos os seus recebimentos e cobranças. Mas cuidar para que tudo funcione do modo mais eficaz e eficiente é nosso trabalho, você e sua empresa não terão mais com o que se preocupar!
+		         `,
+         
+      }
+    }
+  }
 
-// export default {
-//   components: {
-//     ContentServicos
-//   }
-// }
 </script>
 
 <style>
-	/*.button-solucoes{
-	background-color: rgba(10,23,55,0.0) !important;
-	}*/
+	.button-solucoes{
+	background-color: rgba(0,0,0,0.0) !important;
+	border: none !important;
+	}
 	.card-imo{
 	background-color: rgba(10,23,55,0.3) !important;
 	border: none !important;
@@ -163,11 +150,10 @@
         background-repeat: no-repeat;
     }
     .solucoes-text{
-    	font-size: 12px !important;
+    	font-size: 14px !important;
     }
 	
   	.round1{
-  		/*url("~assets/image/bganimation.png")*/
     	-webkit-animation:r1 15s linear infinite;
     	animation:r1 15s linear infinite;
     	position: relative;

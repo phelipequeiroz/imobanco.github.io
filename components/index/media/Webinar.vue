@@ -1,6 +1,6 @@
 <template>
 	
-	<div class="col-lg-6 text-center pt-5">
+	<div class="col-lg-12 text-center pt-5">
 		<h2 class="imo-text-01 text-titulo"></h2>
 		<h4 class="imo-text-05 text-titulo mb-0">WEBINAR</h4>
 		<p class="imo-text-05 text-content mb-0">Acesse nosso webinar pelos canais de streaming</p>

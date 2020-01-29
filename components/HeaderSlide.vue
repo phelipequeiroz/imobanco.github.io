@@ -15,6 +15,8 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
+        caption="First slide"
+        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
         img-src="~assets/image/bannerindex-boleto.jpg"
       ></b-carousel-slide>
 		

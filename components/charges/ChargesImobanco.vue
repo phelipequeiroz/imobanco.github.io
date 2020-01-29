@@ -1,5 +1,5 @@
 <template>
-	<section class="chargesimobanco imobanco-color-05" :style="cssMedia"  >
+	<section class="chargesimobanco imobanco-color-06" :style="cssMedia"  >
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
@@ -9,27 +9,27 @@
 				</div>
 				<div class="col-lg-6">
 					
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-phone-square-alt"></i></span>Contatos telefônicos e digitais para informações, instruções e negociações</p>
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-phone-square-alt"></i></span>Contatos telefônicos e digitais para informações, instruções e negociações</p>
 
 					
 					
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-sms"></i></span>SMS</p>
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-sms"></i></span>SMS</p>
 					
 					
 					
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-envelope"></i></span>Email</p>
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-envelope"></i></span>Email</p>
 
 					
 					
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-file-audio"></i></span>Mensagens gravadas de áudio</p>
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-file-audio"></i></span>Mensagens gravadas de áudio</p>
 
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-exclamation-circle"></i></span>Notificação de cobrança</p>
-
-										
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-file-upload"></i></span>Reemissão de títulos</p>
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-exclamation-circle"></i></span>Notificação de cobrança</p>
 
 										
-					<p class="text-content imo-text-07"><span class="icon-text mr-2"><i class="fas fa-file-alt"></i></span>Confecção de confissões de dívidas</p>
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-file-upload"></i></span>Reemissão de títulos</p>
+
+										
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-file-alt"></i></span>Confecção de confissões de dívidas</p>
 
 				</div>
 
