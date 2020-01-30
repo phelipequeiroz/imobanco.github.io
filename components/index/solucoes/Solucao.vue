@@ -80,15 +80,8 @@
     </b-card>
 
     </div>
-			
-
                        
 			</div>
-			<div class="col-lg-12 text-center">
-				<h5 class="mt-5 imo-text-06 text-subtitulo text-center font-italic">"Mais importante que te dar tecnologia é promover a solução de teus problemas!"</h5>
-				<p class="imo-text-05 font-italic">Fernando Colares - CEO Imobanco</p>
-			</div>
-
 
 			</div>
 		</div>

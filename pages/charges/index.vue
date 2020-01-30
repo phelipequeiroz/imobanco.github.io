@@ -1,12 +1,10 @@
 <template>
-  <div class="container-fluid">
     <div>
    <!--  <slide-page /> -->
     <charges-slide />
     <charges-content />
     <charges-imobanco />
     <charges-agreement />
-    </div>
   </div>
 </template>
 

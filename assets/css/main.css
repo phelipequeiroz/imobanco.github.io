@@ -2,15 +2,16 @@
 
 @import ("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
     
- /*   .page-enter-active, .page-leave-active {
+   /* .page-enter-active, .page-leave-active {
         trasition: all 0.9s;
     }
     .page-enter, .page-leave-active{
         opacity: 0;
         transform: scale(0);
-    }*/
+    } */
+   
     .page-enter-active, .page-leave-active {
-  transition: /*opacity*/ linear .5s
+    transition: linear .5s
     }
     .page-enter, .page-leave-active {
       opacity: 0
@@ -134,12 +135,12 @@
     .text-titulo{
         font-family: 'Poppins', sans-serif;
     ;
-        font-weight: 900;
+        font-weight: 700;
     }
     .text-subtitulo{
         font-family: 'Poppins', sans-serif;
     
-        font-weight: 700;
+        font-weight: 400;
     }
     .text-content{
         font-family: 'Poppins', sans-serif;

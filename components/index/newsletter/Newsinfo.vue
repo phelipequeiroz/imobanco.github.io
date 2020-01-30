@@ -1,12 +1,12 @@
 <template>
 	
 	<div>
-		<h1 class="text-center  imo-text-02 mt-4">
+		<h1 class="text-center  imo-text-06 mt-4">
                 <i v-bind:class="icone"></i>
         </h1>
         <p class="imo-text-06 text-center text-subtitulo mb-0">{{ contentnews }}</p>
-        <h4 class="imo-text-02 text-center text-titulo mt-0 mb-0">{{ title }}</h4>
-        <p class="imo-text-06 text-center text-subtitulo mt-0">{{ content }}</p>
+        <h4 class="imo-text-04 text-center text-titulo mt-0 mb-0">{{ title }}</h4>
+        <p class="imo-text-06 text-center text-content mt-0">{{ content }}</p>
 	</div>
 
 </template>

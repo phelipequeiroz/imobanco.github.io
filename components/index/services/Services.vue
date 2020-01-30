@@ -13,64 +13,54 @@ gestão financeira do seu negócio</p>
             </div>
             <div class="row justify-content-center">
                 
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                   <b-card class="p-0">
-                        <b-row no-gutters>
-                        <b-col md="4">
-                            <b-card-img src="~assets/image/cobrancasicon.png" class="rounded-0 img-fluid imobanco-color-08"></b-card-img>
-                        </b-col>
-                        <b-col md="8">
-                            <b-card-body>
-                           <content-servicos
+                <div class="col-xs-12 col-sm-6 col-lg-6 p-0">
+                    <b-card style="border: none !important;" class="m-0 p-0">
+                        <div class="row">
+                        <div class="col-lg-2">
+                            <img src="~assets/image/boletoicon.png" alt="" style="width: 65px; height: 65px;">
+                        </div>
+                        <div class="col-lg-10">
+                          <content-servicos
+                                          title="BOLETOS"
+                                          content="Emita, Registre e gerencie seus boletos. Tudo de forma simplificada e sem burocracia. Com o Imobanco você tem tudo isso ao seu alcance na palma da sua mão." />
+                        </div>
+                        </div>
+                   </b-card>
+
+                   <b-card style="border: none !important;" class="m-0 p-0">
+                        <div class="row">
+                        <div class="col-lg-2">
+                            <img src="~assets/image/cobrancasicon.png" alt="" style="width: 65px; height: 65px;">
+                        </div>
+                        <div class="col-lg-10">
+                          <content-servicos
                                           title="COBRANÇAS"
-                                          content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança" />
-                            </b-card-body>
-                        </b-col>
-                        </b-row>
-                    </b-card>
+                                          content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança." />
+                        </div>
+                        </div>
+                   </b-card>
+
+                   <b-card style="border: none !important;" class="m-0 p-0">
+                        <div class="row">
+                        <div class="col-lg-2">
+                            <img src="~assets/image/cobrancasicon.png" alt="" style="width: 65px; height: 65px;">
+                        </div>
+                        <div class="col-lg-10">
+                          <content-servicos
+                                          title="E-COMMERCE"
+                                          content="Sua loja 100% integrada a gestão inteligente de recebimentos e cobrança Imobanco. Sem tarifas de manutenção e com você no controle de tudo." />
+                        </div>
+                        </div>
+                   </b-card>
+
+                  
                 </div>
             
-
-                <!-- Colun Cobrança -->
-
                <div class="col-xs-12 col-sm-6 col-lg-4">
-                   <b-card class="p-0">
-                        <b-row no-gutters>
-                        <b-col md="4">
-                            <b-card-img src="~assets/image/cobrancasicon.png" class="rounded-0 img-fluid imobanco-color-08"></b-card-img>
-                        </b-col>
-                        <b-col md="8">
-                            <b-card-body>
-                           <content-servicos
-                                          title="COBRANÇAS"
-                                          content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança" />
-                            </b-card-body>
-                        </b-col>
-                        </b-row>
-                    </b-card>
-                </div>
-
-                <!-- Colun 3 E-commerce -->
-
-               <div class="col-xs-12 col-sm-6 col-lg-4">
-                   <b-card class="p-0">
-                        <b-row no-gutters>
-                        <b-col md="4">
-                            <b-card-img src="~assets/image/cobrancasicon.png" class="rounded-0 img-fluid imobanco-color-08"></b-card-img>
-                        </b-col>
-                        <b-col md="8">
-                            <b-card-body>
-                           <content-servicos
-                                          title="COBRANÇAS"
-                                          content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança" />
-                            </b-card-body>
-                        </b-col>
-                        </b-row>
-                    </b-card>
+                   <img src="~assets/image/servicesbanner.png" alt="" class="img-fluid">
                 </div>
 
             </div>
-            
 
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-12 text-center">

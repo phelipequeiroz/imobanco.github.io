@@ -2,7 +2,8 @@
 
     <div>
                 
-        <h4 class=" imo-text-08 text-titulo">{{ title }}</h4>
+        <h4 class=" imo-text-08 text-titulo">
+        <img :src="image" alt="" class="img-fluid">{{ title }}</h4>
         <p class="imo-text-07 text-content service-text">{{ content }}</p>
     </div>
 			
@@ -12,7 +13,7 @@
 <script>
 export default{
     name: 'ContentServicos',
-    props: ['title','content','icone'],
+    props: ['title','content','image'],
 }
 </script>
 

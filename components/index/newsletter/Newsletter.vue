@@ -7,7 +7,7 @@
                 icone="fas fa-envelope"
                 contentnews="Assine nossa"
                 title="Newsletter"
-                content="Receba as novidades do Imobanco" />
+                content="Cadastre-se e receba o conteúdo especial que preparamos para você!" />
 			</div>
             
             <div class="col-lg-6 text-center pt-3">
