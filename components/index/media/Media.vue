@@ -1,7 +1,7 @@
 <template>
 	<section class="imobanco-color-09 midia pb-4">
 		<div class="container">
-			<div class="row justify-content-end pt-3 pb-3">
+			<div class="row justify-content-first pt-3 pb-3">
         <div class="col-lg-6">
 				<videomidia />
 				<webinar />

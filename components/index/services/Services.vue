@@ -24,7 +24,7 @@ gestão financeira do seu negócio</p>
 
                    <b-card style="border: none !important;" class="m-0 p-0">
                         <content-servicos
-                          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSBrIP1NqAASraNWDnIg8rqy1Rm4aO86Q8kW8ex6m3JovbTbIC"
+                                          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSBrIP1NqAASraNWDnIg8rqy1Rm4aO86Q8kW8ex6m3JovbTbIC"
                                           title="COBRANÇAS"
                                           content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança." />
                    </b-card>
@@ -32,7 +32,7 @@ gestão financeira do seu negócio</p>
                    <b-card style="border: none !important;" class="m-0 p-0">
                       
                           <content-servicos
-                          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSBrIP1NqAASraNWDnIg8rqy1Rm4aO86Q8kW8ex6m3JovbTbIC"
+                                          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSBrIP1NqAASraNWDnIg8rqy1Rm4aO86Q8kW8ex6m3JovbTbIC"
                                           title="E-COMMERCE"
                                           content="Sua loja 100% integrada a gestão inteligente de recebimentos e cobrança Imobanco. Sem tarifas de manutenção e com você no controle de tudo." />
                    </b-card>

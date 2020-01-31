@@ -1,31 +1,30 @@
 <template>
 	<section class="chargesagreement imobanco-color-07" :style="cssMedia"  >
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<h5 class="mt-5 imo-text-06 text-subtitulo text-center">TODOS OS ACORDOS PODEM SER PAGOS EM BOLETOS OU PARCELADOS NO CARTÃO DE CRÉDITO</h5>
-					
-					
+			<div class="row pt-5 pb-4">
+				<div class="col-lg-6 col-md-12 border border-top-0 border-left-0 border-bottom-0 border-right-2 border-white">
+					<h4 class=" imo-text-06 text-subtitulo">TODOS OS ACORDOS PODEM SER PAGOS EM <span class="font-weight-bold"> BOLETOS </span>OU PARCELADOS NO CARTÃO DE CRÉDITO</h4>
 				</div>
-				<div class="col-lg-8 mt-3">
+				<div class="col-lg-2 col-md-4 text-center">
+					<span class="icon-text imo-text-06"><i class="fas fa-clock"></i></span>
+					<p class="text-content imo-text-06">Economize tempo e dinheiro com o Imobanco</p>
+				</div>
+				<div class="col-lg-2 col-md-4 text-center">
+					<span class="icon-text imo-text-06"><i class="fas fa-sms"></i></span>
+					<p class="text-content imo-text-06">Cobrança feita por especialistas. </p>
+				</div>	
+				<div class="col-lg-2 col-md-4 text-center">
+					<span class="icon-text imo-text-06"><i class="fas fa-envelope"></i></span>
+					<p class="text-content imo-text-06">Entenda as etapas da sua cobrança</p>
+				</div>	
 					
-					<p class="text-content imo-text-06"><span class="icon-text mr-2"><i class="fas fa-clock"></i></span>Economize tempo e dinheiro com o Imobanco</p>
+					
+					
+					
+					
 
 					
-					
-					<p class="text-content imo-text-06"><span class="icon-text mr-2"><i class="fas fa-sms"></i></span>Cobrança feita por especialistas. </p>
-					
-					
-					
-					<p class="text-content imo-text-06"><span class="icon-text mr-2"><i class="fas fa-envelope"></i></span>Entenda as etapas da sua cobrança</p>
-
-					
-				</div>
-
-				<div class="col-lg-6">
-										
-					
-				</div>
+				
 			</div>
 		</div>
 	</section>

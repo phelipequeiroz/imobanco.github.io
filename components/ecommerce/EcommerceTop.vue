@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-4 pt-5 pb-5 mt-5 mb-5 text-center">
-					<h1 class=" imo-text-07 text-titulo ">E-commerce</h1>
+					
 				</div>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 	*/
 	.slideecommerce{
 		height: 500px;
-		background-image: url("~assets/image/bgecommerce.jpg") !important;
+		background-image: url("~assets/image/bannerindex-ecommerce.jpg") !important;
 		background: #212121;
 		background-size: 100% auto cover;
         background-position: center top;
