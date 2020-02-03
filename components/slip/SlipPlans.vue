@@ -3,12 +3,12 @@
 		<div class="container">
 			<div class="row justify-content-center pt-5 pb-5">
 				<div class="col-lg-8 text-center">
-					<h2>Escolha um dos planos exclusivos adequados ao tamanho e necessidade dos seus negócios.</h2>
+					<h4 class="text-content imo-text-06">Escolha um dos planos exclusivos adequados ao tamanho e necessidade dos seus negócios.</h4>
 				</div>
 
 				<div class="col-lg-12">
 					    
-					  <slip-table />
+					 <slip-card />
 								    			  
 					</div>
 				</div>
@@ -17,13 +17,13 @@
 </template>
 
 <script>
-	import SlipTable from '@/components/slip/SlipTable.vue'
+	import SlipCard from '@/components/slip/SlipCard.vue'
 
 	export default {
   	components: {
    
    // SlidePage,
-   SlipTable
+   SlipCard
 
     
   }

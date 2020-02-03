@@ -5,15 +5,9 @@
 			<div class="row pt-3 pb-2">
 			<div class="col-lg-12 text-center mb-4">
 
-        <v-lazy v-model="isActive" :options="{ threshold: .9}" min-height="50" transition="slide-x-transition">
-
 				<h2 class="mt-5 imo-text-06 text-titulo">SOLUÇÕES</h2>
-        </v-lazy>
-        
-         <v-lazy v-model="isActive" :options="{ threshold: .9}" min-height="50" transition="slide-x-transition">
 
 				<p class="text-content imo-text-06">Soluções definitiva para o controle de seus recebimentos</p>
-			</v-lazy>
       </div>
 			</div>
 			<div class="row justify-content-end">

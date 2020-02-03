@@ -6,12 +6,22 @@
 					<h3 class="mt-5 imo-text-07 text-subtitulo text-center">COMO SE DÁ A RECUPERAÇÃO DE CRÉDITO <span class="font-weight-bold">(ACORDOS) NO IMOBANCO?</span></h3>
 					<p class="text-content imo-text-07 text-center">Durante as etapas do processo de cobrança, seus créditos estarão sendo monitorados e tratados por nossos gerentes de contas e operadores, sendo realizada diversas interações com seus clientes, como:</p>	
 				</div>
-				<div class="col-lg-3">
-					<img src="~assets/image/charges-contact.jpg" alt="" class="img-fluid border-acordos rounded">
-					<p class="text-content imo-text-09">Contatos telefônicos e digitais para informações, instruções e negociações</p>
-
+				<div class="col-lg-6">
+					<!-- <b-card 
+						class="img-fluid border-acordos"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">Contatos telefônicos e digitais para informações, instruções e negociações</p>
+						</b-card-text>
+					</b-card> -->
 					
-<!-- 					
+
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-sms"></i></span>Contatos telefônicos e digitais para informações, instruções e negociações</p>
+					
 					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-sms"></i></span>SMS</p>
 					
 					
@@ -28,24 +38,94 @@
 					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-file-upload"></i></span>Reemissão de títulos</p>
 
 										
-					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-file-alt"></i></span>Confecção de confissões de dívidas</p> -->
+					<p class="text-content imo-text-09"><span class="icon-text mr-5"><i class="fas fa-file-alt"></i></span>Confecção de confissões de dívidas</p>
 
+				</div>
+
+				<!-- <div class="col-lg-3">
+					<b-card 
+						class="img-fluid border-acordos rounded"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">SMS</p>
+						</b-card-text>
+					</b-card>
 				</div>
 
 				<div class="col-lg-3">
-					<img src="~assets/image/charges-contact.jpg" alt="" class="img-fluid border-acordos rounded">
-					<p class="text-content imo-text-09">Contatos telefônicos e digitais para informações, instruções e negociações</p>
+					<b-card 
+						class="img-fluid border-acordos rounded"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">Email</p>
+						</b-card-text>
+					</b-card>
 				</div>
 
 				<div class="col-lg-3">
-					<img src="~assets/image/charges-contact.jpg" alt="" class="img-fluid border-acordos rounded">
-					<p class="text-content imo-text-09">Contatos telefônicos e digitais para informações, instruções e negociações</p>
+					<b-card 
+						class="img-fluid border-acordos rounded"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">Mensagens gravadas de áudio</p>
+						</b-card-text>
+					</b-card>
 				</div>
 
 				<div class="col-lg-3">
-					<img src="~assets/image/charges-contact.jpg" alt="" class="img-fluid border-acordos rounded">
-					<p class="text-content imo-text-09">Contatos telefônicos e digitais para informações, instruções e negociações</p>
+					<b-card 
+						class="img-fluid border-acordos rounded"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">SMS</p>
+						</b-card-text>
+					</b-card>
 				</div>
+
+				<div class="col-lg-3">
+					<b-card 
+						class="img-fluid border-acordos rounded"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">Email</p>
+						</b-card-text>
+					</b-card>
+				</div>
+
+				<div class="col-lg-3">
+					<b-card 
+						class="img-fluid border-acordos rounded"
+						overlay
+						img-src="~assets/image/charges-contact.jpg"
+						img-alt="Card Image"
+						text-variant="white"				
+					>
+						<b-card-text class="pt-4">
+						<p class="text-subtitle imo-text-06 mt-5">Mensagens gravadas de áudio</p>
+						</b-card-text>
+					</b-card>
+				</div> -->
+				
 			</div>
 		</div>
 	</section>
