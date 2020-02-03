@@ -1,15 +1,23 @@
 <template>
 
 <section class="solucoes solucoes2 imobanco-color-09">
-		<div class="container">
-			<div class="row pt-4 pb-4">
+		<div class="container pb-5">
+			<div class="row pt-3 pb-2">
 			<div class="col-lg-12 text-center mb-4">
+
+        <v-lazy v-model="isActive" :options="{ threshold: .9}" min-height="50" transition="slide-x-transition">
+
 				<h2 class="mt-5 imo-text-06 text-titulo">SOLUÇÕES</h2>
+        </v-lazy>
+        
+         <v-lazy v-model="isActive" :options="{ threshold: .9}" min-height="50" transition="slide-x-transition">
+
 				<p class="text-content imo-text-06">Soluções definitiva para o controle de seus recebimentos</p>
+			</v-lazy>
+      </div>
 			</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-5 round1"></div>
+			<div class="row justify-content-end">
+				
             <div class="col-lg-7 p-2">
 				<div role="tablist">
     <b-card no-body class="mb-1 button-solucoes">
