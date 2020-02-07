@@ -5,6 +5,7 @@
     <solucao />
     <newsletter />
     <blog />
+    <gestao-index />
     </div> 
 </template>
 
@@ -15,6 +16,7 @@ import Services from '@/components/index/services/Services.vue'
 import Solucao from '@/components/index/solucoes/Solucao.vue'
 import Newsletter from '@/components/index/newsletter/Newsletter.vue'
 import Blog from '@/components/index/blog/Blog.vue'
+import GestaoIndex from '@/components/index/gestao/GestaoIndex.vue'
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     Services,
     Solucao,
     Newsletter,
-    Blog
+    Blog,
+    GestaoIndex
   }
 }
 </script>
