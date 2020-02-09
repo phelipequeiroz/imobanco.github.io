@@ -13,7 +13,7 @@
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
               <b-collapse id="nav-collapse" is-nav>
-                 <!-- Right aligned nav items -->
+              
                 <b-navbar-nav class="ml-auto pt-1">
                   <router-link to="/"><span class="imo-text-06 text-content pl-2 pr-2">Home</span></router-link>
                   <router-link to="/charges"><span class="imo-text-06 text-content pl-2 pr-2 ">Cobranças</span></router-link>
