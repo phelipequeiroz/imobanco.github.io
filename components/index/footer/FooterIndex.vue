@@ -18,7 +18,7 @@
             </div>
            <div class="col-lg-3 col-md-6">
 			   	<p class="imo-text-05 text-subtitulo mt-2">Redes Sociais: <span class="text-content">
-            		<a href=""><img src="~/assets/image/facebook.png" alt="" class="ml-1 mr-1"></a><a href=""><img src="~/assets/image/instagram.png" alt="" class="ml-1 mr-1"></a><a href=""><img src="~/assets/image/twitter.png" alt="" class="ml-1 mr-1"></a>
+            		<a href="https://www.facebook.com/imobanco/" target="_blank"><img src="~/assets/image/facebook.png" alt="" class="ml-1 mr-1"></a><a href="https://www.instagram.com/imobanco/" target="_blank"><img src="~/assets/image/instagram.png" alt="" class="ml-1 mr-1"></a><a href="https://twitter.com/imobanco" target="_blank"><img src="~/assets/image/twitter.png" alt="" class="ml-1 mr-1"></a>
             	</span></p>
 				<p class="imo-text-05 text-content mt-3">Imobanco 2020 ©  -  Todos os direitos reservados.</p>
 		   </div>
