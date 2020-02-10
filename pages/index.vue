@@ -16,7 +16,7 @@ import Services from '@/components/index/services/Services.vue'
 import Solucao from '@/components/index/solucoes/Solucao.vue'
 import Newsletter from '@/components/index/newsletter/Newsletter.vue'
 import Blog from '@/components/index/blog/Blog.vue'
-import GestaoIndex from '@/components/index/gestao/GestaoIndex.vue'
+// import Media from '@/components/index/media/Media.vue'
 
 
 export default {
@@ -26,7 +26,7 @@ export default {
     Solucao,
     Newsletter,
     Blog,
-    GestaoIndex
+    // Media
   }
 }
 </script>
