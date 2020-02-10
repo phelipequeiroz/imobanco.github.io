@@ -1,13 +1,10 @@
 <template>
-<div class="container pt-5 pb-5">
-    <hr>
-    <div class="row">
+<section :style="cssMedia">
+<div class="container pt-5 pb-5" >
+    <div class="row justify-content-center">
         
         <div class="col-lg-12">
-            <h2 class="mt-5 imo-text-08 text-titulo text-center">FAQ IMOBANCO</h2>
-        </div>
-        <div class="col-lg-3 col-md-4 hidden-sm hidden-xs">
-            <img src="~assets/image/faq.jpg" alt="" class="img-fluid">
+            <h2 class="mt-5 imo-text-05 text-titulo text-center">FAQ IMOBANCO</h2>
         </div>
         <div class="col-lg-9 col-md-8">
         <div role="tablist">
@@ -105,13 +102,17 @@
   </div>
     </div>
 </div>
-  
+</section>  
 </template>
 
 <script>
   export default {
     data() {
       return {
+        cssMedia: {
+          // backgroundImage: `url(${require('@/assets/image/connected.png')})`
+           backgroundImage: `url(${require('@/assets/image/bgquestionfaq.jpg')})`
+        },
         text1: `
           Abrir conta no Imobanco é simples, você pode preencher cadastro de abertura de conta On-line, recebe um e-mail e passar a  o processo.
         `,
