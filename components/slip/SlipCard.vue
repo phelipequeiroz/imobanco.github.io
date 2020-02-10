@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="card-plans" id="reserva">
                     <h4 class="p-1 m-0 text-center text-subtitle imobanco-color-09 card-title imo-text-06">Reserva</h4>
                     <hr class="m-0 p-0" style=" border-bottom:2px solid #06cece">
@@ -62,12 +62,12 @@
                     </b-collapse>
 
                     <div class="text-center p-2">
-                        <button type="button" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</button>
+                        <a href="https://t.me/imobancobot" target="_blank" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</a>
                     </div>
                 </div>
             </div>
             <!--  Card Business Plans -->
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="card-plans" id="business">
                     <h4 class="p-1 m-0 text-center text-subtitle imobanco-color-09 card-title imo-text-06">Business</h4>
                     <hr class="m-0 p-0" style=" border-bottom:2px solid #06cece">
@@ -160,14 +160,14 @@
                     </b-collapse>
 
                     <div class="text-center p-2">
-                        <button type="button" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</button>
+                        <a href="https://t.me/imobancobot" target="_blank" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</a>
                     </div>
                 </div>
             </div>
 
 
             <!--  Card Mercado Plans -->
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="card-plans" id="mercado">
                     <h4 class="p-1 m-0 text-center text-subtitle imobanco-color-09 card-title imo-text-06">Mercado</h4>
                     <hr class="m-0 p-0" style=" border-bottom:2px solid #06cece">
@@ -277,13 +277,13 @@
                     </b-collapse>
                     
                     <div class="text-center p-2">
-                        <button type="button" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</button>
+                        <a href="https://t.me/imobancobot" target="_blank" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</a>
                     </div>
                 </div>
             </div>
 
               <!--  Card FULLWallet Plans -->
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="card-plans" id="fullwallet">
                     <h4 class="p-1 m-0 text-center text-subtitle imobanco-color-09 card-title imo-text-06">FULLWallet</h4>
                     <hr class="m-0 p-0" style=" border-bottom:2px solid #06cece">
@@ -410,7 +410,7 @@
                     </b-collapse>
 
                     <div class="text-center p-2">
-                        <button type="button" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</button>
+                        <a href="https://t.me/imobancobot" target="_blank" class="btn btn-primary border-0 rounded-pill imobanco-color-07 text-content">assine</a>
                     </div>
                 </div>
             </div>

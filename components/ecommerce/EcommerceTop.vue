@@ -1,31 +1,21 @@
 <template>
-	<section class="slideecommerce " >
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-4 pt-5 pb-5 mt-5 mb-5 text-center">
-					
-				</div>
-			</div>
-		</div>
-	</section>
+	<b-carousel
+    id="carousel-no-animation"
+    style="text-shadow: 0px 0px 2px #000"
+    no-animation
+    img-width="1024"
+    img-height="480"
+  >
+    <b-carousel-slide
+      img-src="~assets/image/bannerindex-ecommerce.jpg"
+    ></b-carousel-slide>
+   
+  </b-carousel>
 </template>
 
 
 <script>
-  export default {
-  components: {
-
-  },
-  data() {
-      return {
-        cssMedia: {
-          // backgroundImage: `url(${require('@/assets/image/connected.png')})`
-        backgroundImage: `url(${require('@/assets/image/bgecommerce.jpg')})`
-        }
-      }
-    }
-  }
-	
+ 	
 </script>
 
 
@@ -39,12 +29,12 @@
 	    background: linear-gradient(to right, rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
 	}
 	*/
-	.slideecommerce{
+	/* .slideecommerce{
 		height: 500px;
 		background-image: url("~assets/image/bannerindex-ecommerce.jpg") !important;
 		background: #212121;
 		background-size: 100% auto cover;
         background-position: center top;
        	background-repeat: no-repeat;
-	}
+	} */
 </style>

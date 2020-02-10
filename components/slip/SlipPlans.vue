@@ -1,5 +1,5 @@
 <template>
-	<section class="imobanco-color-07">
+	<section class="imobanco-color-09 sliplans">
 		<div class="container">
 			<div class="row justify-content-center pt-5 pb-5">
 				<div class="col-lg-8 text-center">
@@ -34,5 +34,13 @@
 	.border-table{
 		border: 1px solid #ffffff;
 		border-radius: 30px !important;
+	}
+	.sliplans{
+		background-image: url("~assets/image/bgplans.jpg");
+        background-size: 100% auto cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 </style>

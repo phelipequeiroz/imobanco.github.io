@@ -2,7 +2,7 @@
 	<section class="imobanco-color-02">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 text-center">
 					<img src="~/assets/image/ecommerceinfo.png" alt="" class="img-fluid">				
 				</div>
 				<div class="col-lg-6">

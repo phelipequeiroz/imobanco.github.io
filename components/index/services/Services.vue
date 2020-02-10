@@ -10,40 +10,32 @@
 gestão financeira do seu negócio</p>
 			</div>
       </div>
-            <div class="row justify-content-center imobanco-color-06 row-radius">
+            <div class="row justify-content-center">
           
-                <div class="col-xs-12 col-sm-6 col-lg-4 p-0">
-                 
-                    <b-card style="border: none !important;" class="m-0 p-0">
-                       
+                <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
+                          <img src="~assets/image/boletoicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
                           <content-servicos
-                                          image="~assets/image/cobrancasicon.png"
                                           title="BOLETOS"
                                           content="Emita, Registre e gerencie seus boletos. Tudo de forma simplificada e sem burocracia. Com o Imobanco você tem tudo isso ao seu alcance na palma da sua mão." />
-                   </b-card>
                  
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4 p-0">
-                   
-                   <b-card style="border: none !important;" class="m-0 p-0">
+                <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
+                        <img src="~assets/image/cobrancasicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
                         <content-servicos
-                                          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSBrIP1NqAASraNWDnIg8rqy1Rm4aO86Q8kW8ex6m3JovbTbIC"
+                                         
                                           title="COBRANÇAS"
                                           content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança." />
-                   </b-card>
                  
                   </div>
 
-                  <div class="col-xs-12 col-sm-6 col-lg-4 p-0">
+                  <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
                    
-                   <b-card style="border: none !important;" class="m-0 p-0">
-                      
+                        <img src="~assets/image/ecommerceicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
                           <content-servicos
-                                          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSBrIP1NqAASraNWDnIg8rqy1Rm4aO86Q8kW8ex6m3JovbTbIC"
+                                       
                                           title="E-COMMERCE"
                                           content="Sua loja 100% integrada a gestão inteligente de recebimentos e cobrança Imobanco. Sem tarifas de manutenção e com você no controle de tudo." />
-                   </b-card>
-                 
+                                   
                   </div>
                 </div>
             </div>

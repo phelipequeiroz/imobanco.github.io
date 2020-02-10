@@ -2,21 +2,21 @@
 	<section class="footer-bg pt-4 pb-4">
 		<div class="container">
 		<div class="row pt-4 pb-4">
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-6">
             	<p class="imo-text-05 text-content pt-4"><img src="~/assets/image/imobanco-branco.png" alt=""></p>
             </div>
-			 <div class="col-lg-3">
+			 <div class="col-lg-3 col-md-6">
             	<h5 class="imo-text-06 text-titulo mt-2 mb-2">Contate a gente</h5>
             	<p class="imo-text-05 text-content">Quaisquer esclarecimentos e dúvidas, entre em contato conosco e <span class="imo-text-04">#vemvocêtambém</span> ser Imobanco.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
 				<h5 class="imo-text-06 text-titulo mt-2 mb-2">Atendimento e Suporte</h5>
             	<p class="imo-text-05 text-subtitulo m-0"><a href="https://t.me/imobancobot" target="_blank"><i class="fab fa-telegram imo-text-05"></i></a> Chat Imobanco: <span class="text-content">24h online</span></p>
             	<p class="imo-text-05 text-subtitulo m-0"><i class="fas fa-phone-square-alt"></i> Atendimento Nacional: <span class="text-content">4007-2957</span></p>
             	<p class="imo-text-05 text-subtitulo m-0"><i class="fab fa-whatsapp"></i> Whatsapp: <span class="text-content">11.94659.2701 </span></p>
             	<p class="imo-text-05 text-subtitulo m-0"><i class="fas fa-envelope"></i> Email: <span class="text-content">sac@imobanco.com.br</span></p>
             </div>
-           <div class="col-lg-3">
+           <div class="col-lg-3 col-md-6">
 			   	<p class="imo-text-05 text-subtitulo mt-2">Redes Sociais: <span class="text-content">
             		<a href=""><img src="~/assets/image/facebook.png" alt="" class="ml-1 mr-1"></a><a href=""><img src="~/assets/image/instagram.png" alt="" class="ml-1 mr-1"></a><a href=""><img src="~/assets/image/twitter.png" alt="" class="ml-1 mr-1"></a>
             	</span></p>

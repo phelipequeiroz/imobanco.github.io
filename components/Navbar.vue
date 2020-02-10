@@ -19,7 +19,7 @@
                   <router-link to="/charges"><span class="imo-text-06 text-content pl-2 pr-2 ">Cobranças</span></router-link>
                   <router-link to="/slip"><span class="imo-text-06 text-content pl-2 pr-2">Boleto</span></router-link>
                   <router-link to="/ecommerce"><span class="imo-text-06 text-content pl-2 pr-2">E-Commerce</span></router-link>
-                  <router-link to="/contact"><span class="imo-text-06 text-content pl-2 pr-2">Blog</span></router-link>
+                 <a href="https://blog.imobanco.com.br/" target="_blank"><span class="imo-text-06 text-content pl-2 pr-2">Blog</span></a>
                   <router-link to="/contact"><span class="imo-text-06 text-content pl-2 pr-2">Contato</span></router-link>
                 </b-navbar-nav>
                 

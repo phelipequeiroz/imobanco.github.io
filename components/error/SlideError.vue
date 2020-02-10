@@ -1,5 +1,5 @@
 <template>
-    <b-carousel
+<b-carousel
     id="carousel-no-animation"
     style="text-shadow: 0px 0px 2px #000"
     no-animation
@@ -7,18 +7,16 @@
     img-height="480"
   >
     <b-carousel-slide
-      img-src="~assets/image/bannerindex-contact.jpg"
+      img-src="~assets/image/banner404.jpg"
     ></b-carousel-slide>
    
   </b-carousel>
 </template>
 
 <script>
-    export default {
-        
-    }
+   
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>

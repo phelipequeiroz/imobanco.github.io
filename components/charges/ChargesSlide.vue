@@ -1,25 +1,33 @@
 <template>
-	<section class="bgcharges">
-		<div class="container">
+<b-carousel
+    id="carousel-no-animation"
+    style="text-shadow: 0px 0px 2px #000"
+    no-animation
+    img-width="1024"
+    img-height="480"
+  >
+    <b-carousel-slide
+      img-src="~assets/image/bannerindex-cobrancas.jpg"
+    ></b-carousel-slide>
+   
+  </b-carousel>
+	<!-- <section>
+		<div class="container-fluid">
 			<div class="row justify-content-center">
-				<div class="col-lg-8 pt-5 pb-5">
-					<div class="mt-5 mb-5">
-						
-					</div>
-				</div>
+					<img src="~assets/image/bannerindex-cobrancas.jpg" alt="" class="img-fluid bgcharges">		
 			</div>
 		</div>
-	</section>
+	</section> -->
 </template>
 <script>
 	
 </script>
 <style>
 	.bgcharges{
-        height: 500px;
-        background-image: url("~assets/image/bannerindex-cobrancas.jpg") !important;
+        /* height: 500px;
+        background-image: url("~assets/image/bannerindex-cobrancas.jpg") !important; */
         background: rgb(4,95,170);
-        background-size: 100% auto cover;
+        background-size: 100% auto;
         background-position: center top;
        	background-repeat: no-repeat;
     }
