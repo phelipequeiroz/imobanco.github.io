@@ -6,8 +6,8 @@
       <div class="col-lg-8 text-center pt-5 pb-5">
             <h1 v-if="error.statusCode === 404" class="imo-text-07 text-titulo">Error 404</h1>
     <h1 v-else>Pagina não encontrada.</h1>
-    <h3 class="text-titulo imo-text-08">Ops! Não consegui localizar a página solicitada.</h3>
-    <nuxt-link to="/">Volte para página principal clicando aqui!</nuxt-link>
+    <h3 class="text-titulo imo-text-08">Ops! Não conseguimos localizar a página solicitada.</h3>
+    <nuxt-link to="/">clique aqui e volte para página principal</nuxt-link>
         </div> 
     </div>
     </div>

@@ -1,16 +1,15 @@
 <template>
-	<b-carousel
-    id="carousel-no-animation"
-    style="text-shadow: 0px 0px 2px #000"
-    no-animation
-    img-width="1024"
-    img-height="480"
-  >
-    <b-carousel-slide
-      img-src="~assets/image/bannerindex-ecommerce.jpg"
-    ></b-carousel-slide>
-   
-  </b-carousel>
+<div class="slidemobileecommerce">
+  <div class="container">
+    <div class="row justify-content-left">
+      <div class="col-lg-6 col-md-8 pt-5">
+        <h1 class="mt-5 text-content imo-text-07" style="text-shadow: white 0.1em 0.1em 0.2em"> Ganhe uma <span class="text-titulo imo-text-02">loja virtual</span> e feche negócios através do seu<span class="text-titulo imo-text-02"> E-Commerce</span>
+       </h1>
+      </div>
+    </div>
+  </div>
+
+</div>
 </template>
 
 
@@ -20,21 +19,11 @@
 
 
 <style>
-/*.chargesagreement{
-		padding-top: 20px;
-		padding-bottom: 20px;
-		background: rgb(4,95,170);
-	    background: -webkit-linear-gradient(left, rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
-	    background: -o-linear-gradient(left,  rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
-	    background: linear-gradient(to right, rgba(2,45,96,1) 0%, rgba(4,95,170,1) 100%);
-	}
-	*/
-	/* .slideecommerce{
-		height: 500px;
-		background-image: url("~assets/image/bannerindex-ecommerce.jpg") !important;
-		background: #212121;
-		background-size: 100% auto cover;
-        background-position: center top;
-       	background-repeat: no-repeat;
-	} */
+.slidemobileecommerce{
+        height: 500px;
+        background-image: url("~assets/image/bannerindexslideecommerce.jpg") !important;
+        background-size: 100% auto cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
 </style>

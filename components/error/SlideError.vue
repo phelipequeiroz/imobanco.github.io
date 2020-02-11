@@ -1,22 +1,29 @@
 <template>
-<b-carousel
-    id="carousel-no-animation"
-    style="text-shadow: 0px 0px 2px #000"
-    no-animation
-    img-width="1024"
-    img-height="480"
-  >
-    <b-carousel-slide
-      img-src="~assets/image/banner404.jpg"
-    ></b-carousel-slide>
-   
-  </b-carousel>
+<div class="slidemobilefaq">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center col-md-8 pt-5">
+        <h1 class="mt-5 text-content imo-text-07" style="text-shadow: white 0.1em 0.1em 0.2em"> <span class="text-titulo imo-text-02">PÁGINA NÃO ENCONTRADA</span>
+       </h1>
+      </div>
+    </div>
+  </div>
+
+</div>
 </template>
 
+
 <script>
-   
+ 	
 </script>
 
-<style>
 
+<style>
+.slidemobilefaq{
+        height: 300px;
+        background-image: url("~assets/image/bannerindexslidefaq.jpg") !important;
+        background-size: 100% auto cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
 </style>
