@@ -4,29 +4,29 @@
     <section class="login color-gradient-login">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-9  pt-3">
-          <router-link to="/"><img src="~assets/image/logoimobanco.png" alt=""></router-link>
-        </div>
-        <div class="col-lg-10 col-md-3 align-self-end pt-2">
-          <div>
-            <b-navbar toggleable="lg" type="dark" variant="info" class="bg-nav">
-                <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <div class="col-lg-12 p-0">
+        <b-navbar toggleable="lg" class="color-nav m-0" type="dark" variant="info">
+    <b-navbar-brand href="#">
+      <router-link to="/"><img src="~assets/image/logoimobanco.png" alt=""></router-link>
+    </b-navbar-brand>
 
-              <b-collapse id="nav-collapse" is-nav>
-              
-                <b-navbar-nav class="ml-auto pt-1">
-                  <router-link to="/"><span class="imo-text-06 text-content pl-2 pr-2">Home</span></router-link>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+       <router-link to="/"><span class="imo-text-06 text-content pl-2 pr-2">Home</span></router-link>
                   <router-link to="/charges"><span class="imo-text-06 text-content pl-2 pr-2 ">Cobranças</span></router-link>
                   <router-link to="/slip"><span class="imo-text-06 text-content pl-2 pr-2">Boleto</span></router-link>
                   <router-link to="/ecommerce"><span class="imo-text-06 text-content pl-2 pr-2">E-Commerce</span></router-link>
                  <a href="https://blog.imobanco.com.br/" target="_blank"><span class="imo-text-06 text-content pl-2 pr-2">Blog</span></a>
                   <router-link to="/contact"><span class="imo-text-06 text-content pl-2 pr-2">Contato</span></router-link>
-                </b-navbar-nav>
-                
-              </b-collapse>
-            </b-navbar>
-          </div>
-        </div>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+  </div>
+
       </div>
     </div>
     </section>
@@ -38,6 +38,9 @@
 	margin-top: 1px;
 	margin-bottom: 0px;
   background-color: #212121;
+}
+.color-nav{
+   background-color:#212529 !important;
 }
 .color-gradient-login{
     /* background: rgb(4,95,170); */

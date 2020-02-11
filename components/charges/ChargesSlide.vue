@@ -1,41 +1,25 @@
 <template>
-<b-carousel
-    id="carousel-no-animation"
-    style="text-shadow: 0px 0px 2px #000"
-    no-animation
-    img-width="1024"
-    img-height="480"
-  >
-    <b-carousel-slide
-      img-src="~assets/image/bannerindex-cobrancas.jpg"
-    ></b-carousel-slide>
-   
-  </b-carousel>
-	<!-- <section>
-		<div class="container-fluid">
-			<div class="row justify-content-center">
-					<img src="~assets/image/bannerindex-cobrancas.jpg" alt="" class="img-fluid bgcharges">		
-			</div>
-		</div>
-	</section> -->
+<div class="slidemobilecobrancas">
+  <div class="container">
+    <div class="row justify-content-left">
+      <div class="col-lg-6 col-md-8 pt-5">
+        <h1 class="mt-5 text-content imo-text-07" style="text-shadow: white 0.1em 0.1em 0.2em"> Todos os <span class="text-titulo imo-text-02">acordos</span> podem ser pagos em <span class="text-titulo imo-text-02">boletos</span> ou no cartão</span>
+       </h1>
+	   
+      </div>
+    </div>
+  </div>
+</div>
 </template>
 <script>
 	
 </script>
 <style>
-	.bgcharges{
-        /* height: 500px;
-        background-image: url("~assets/image/bannerindex-cobrancas.jpg") !important; */
-        background: rgb(4,95,170);
-        background-size: 100% auto;
-        background-position: center top;
-       	background-repeat: no-repeat;
-    }
-    .slider-text1{
-    	padding-left: 15px;
-    	padding-top: 10px;
-    	padding-right: 15px;
-    	padding-bottom: 10px;
-    	background-color: #06cece;
-    }
+	.slidemobilecobrancas{
+        height: 500px;
+        background-image: url("~assets/image/bannerindexslidecobrancas.jpg") !important;
+        background-size: 100% auto cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
 </style>

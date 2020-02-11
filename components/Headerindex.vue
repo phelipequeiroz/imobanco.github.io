@@ -6,7 +6,6 @@
 				<div class="col-lg-2 pt-3">
 					<div>
 					  <b-card>
-
 					    <b-card-text>
 					      Testando os paranauê<em>Título de Cartão</em>Conteúdo da carta
 					    </b-card-text>
