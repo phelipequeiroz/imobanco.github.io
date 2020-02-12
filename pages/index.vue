@@ -5,7 +5,6 @@
     <solucao />
     <newsletter />
     <blog />
-    <gestao-index />
     </div> 
 </template>
 
