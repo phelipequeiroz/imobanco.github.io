@@ -2,8 +2,8 @@
 <div class="slidemobile">
   <div class="container">
     <div class="row justify-content-left">
-      <div class="col-lg-6 col-md-8 pt-5">
-        <h1 class="mt-5 text-content imo-text-07" style="text-shadow: white 0.1em 0.1em 0.2em"> Abra uma conta <span class="text-titulo imo-text-02">Imobanco</span> e tenha 
+      <div class="col-lg-6 col-md-8 col-sm-8 col-8 pt-2">
+        <h1 class="mt-5 text-content imo-text-07 font-size" style="text-shadow: white 0.1em 0.1em 0.2em"> Abra uma conta <span class="text-titulo imo-text-02">Imobanco</span> e tenha 
         <span class="text-titulo imo-text-02"> Gestão financeira </span>para o seu negócio</h1>
       </div>
     </div>
@@ -67,6 +67,11 @@
   top: 100px;
   left: 210px;
 } */
+.font-size{
+  font-size: calc(2vw + 3vmin);
+
+}
+
 .slidemobile{
         height: 500px;
         background-image: url("~assets/image/bannerindexslide.jpg") !important;

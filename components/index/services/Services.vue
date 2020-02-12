@@ -20,15 +20,6 @@ gestão financeira do seu negócio</p>
                  
                 </div>
                 <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
-                        <img src="~assets/image/cobrancasicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
-                        <content-servicos
-                                         
-                                          title="COBRANÇAS"
-                                          content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança." />
-                 
-                  </div>
-
-                  <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
                    
                         <img src="~assets/image/ecommerceicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
                           <content-servicos
@@ -36,6 +27,15 @@ gestão financeira do seu negócio</p>
                                           title="E-COMMERCE"
                                           content="Sua loja 100% integrada a gestão inteligente de recebimentos e cobrança Imobanco. Sem tarifas de manutenção e com você no controle de tudo." />
                                    
+                  </div>
+
+                  <div class="col-xs-12 col-sm-4 col-lg-4 p-2 text-center">
+                        <img src="~assets/image/cobrancasicon.png" alt="" class="img-fluid" style="width: 100px; height: 100px;">
+                        <content-servicos
+                                         
+                                          title="COBRANÇAS"
+                                          content="Feita de forma estratégica, baseada em dados de comportamento dos seus devedores. Isso significa assertividade e otimização nos esforços de cobrança." />
+                 
                   </div>
                 </div>
             </div>
