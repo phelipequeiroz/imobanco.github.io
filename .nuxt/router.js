@@ -3,12 +3,12 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _63eb024a = () => interopDefault(import('../pages/charges/index.vue' /* webpackChunkName: "pages/charges/index" */))
-const _a209b3d2 = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
-const _5d91662a = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
-const _2367e9ea = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
-const _7e4e34ab = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
-const _52b087cc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _0fefe9e0 = () => interopDefault(import('../pages/charges/index.vue' /* webpackChunkName: "pages/charges/index" */))
+const _6d64802d = () => interopDefault(import('../pages/cobrancas/index.vue' /* webpackChunkName: "pages/cobrancas/index" */))
+const _7d3c3481 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
+const _a69535be = () => interopDefault(import('../pages/ecommerce/index.vue' /* webpackChunkName: "pages/ecommerce/index" */))
+const _c7a33656 = () => interopDefault(import('../pages/slip/index.vue' /* webpackChunkName: "pages/slip/index" */))
+const _26c099b0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -28,27 +28,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/charges",
-    component: _63eb024a,
+    component: _0fefe9e0,
     name: "charges"
   }, {
     path: "/cobrancas",
-    component: _a209b3d2,
+    component: _6d64802d,
     name: "cobrancas"
   }, {
     path: "/contact",
-    component: _5d91662a,
+    component: _7d3c3481,
     name: "contact"
   }, {
     path: "/ecommerce",
-    component: _2367e9ea,
+    component: _a69535be,
     name: "ecommerce"
   }, {
     path: "/slip",
-    component: _7e4e34ab,
+    component: _c7a33656,
     name: "slip"
   }, {
     path: "/",
-    component: _52b087cc,
+    component: _26c099b0,
     name: "index"
   }],
 

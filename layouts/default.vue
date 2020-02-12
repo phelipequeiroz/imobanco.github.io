@@ -2,22 +2,17 @@
   <div>
     <navbar />
     <nuxt />
-     <!-- <media /> -->
     <footer-index />
-
-
   </div>
 </template>
  
 <script>
   import Navbar from '@/components/Navbar.vue'
-  // import Media from '@/components/index/media/Media.vue'
   import FooterIndex from '@/components/index/footer/FooterIndex.vue'
 
   export default {
   components: {
     Navbar,
-    // Media,
     FooterIndex
   }
 }
