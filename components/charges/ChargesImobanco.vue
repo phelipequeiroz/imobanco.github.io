@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h3 class="mt-5 imo-text-06 text-subtitulo">Como se dá a recuração de crédito<span class="font-weight-bold">(acordos) no Imobanco?</span></h3>
+					<h3 class="mt-5 imo-text-06 text-subtitulo">Como se dá a recuperação de crédito<span class="font-weight-bold">(acordos) no Imobanco?</span></h3>
 					<p class="text-content imo-text-05 text-justify">Durante as etapas do processo de cobrança, seus créditos estarão sendo monitorados e tratados por nossos gerentes de contas e operadores, sendo realizada diversas interações com seus clientes, como:</p>	
 				</div>
 			</div>
