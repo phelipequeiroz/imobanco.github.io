@@ -1,0 +1,31 @@
+name: build and deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Set up None
+        uses: actions/setup-node@v1
+        with:
+          python-version: 12
+
+      - name: Install dependencies
+        run: npm install
+
+      # - name: Build
+        # run: npm run generate
+
+      # - name: Deploy
+        # uses: peaceiris/actions-gh-pages@v3
+        # with:
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          # publish_dir: ./dist
