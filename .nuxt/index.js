@@ -11,8 +11,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_bootstrapvue_6277f8d8 from 'nuxt_plugin_bootstrapvue_6277f8d8' // Source: ./bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_plugin_38a4de8a from 'nuxt_plugin_plugin_38a4de8a' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_2cd61371 from 'nuxt_plugin_bootstrapvue_2cd61371' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_6512c942 from 'nuxt_plugin_plugin_6512c942' // Source: ./vuetify/plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -146,12 +146,12 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_bootstrapvue_6277f8d8 === 'function') {
-    await nuxt_plugin_bootstrapvue_6277f8d8(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_2cd61371 === 'function') {
+    await nuxt_plugin_bootstrapvue_2cd61371(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_38a4de8a === 'function') {
-    await nuxt_plugin_plugin_38a4de8a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_6512c942 === 'function') {
+    await nuxt_plugin_plugin_6512c942(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first
