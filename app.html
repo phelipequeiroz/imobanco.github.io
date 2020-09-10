@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+    <script type="text/javascript">
+      var hash_smartzap =
+        "NmM0ZjdmNGUwNjIzZDFhOTcyNDlkYTg1Zjc1NzI0YWU1ZWYwNTk5MzhiYTc5OWFhYTg0NWUxYzJlOGE3NjJiZA";
+    </script>
+    <script
+      type="text/javascript"
+      src="https://imobanco.sz.chat/webchannel/source/smartzap-web.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://embed.clickmeeting.com/embed_conference.html?r=1711534153256466&w=1024&h=768"
+    ></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175838244-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-175838244-1");
+    </script>
+  </head>
+
+  <body {{ BODY_ATTRS }}>
+    <script type="text/javascript">
+      // Este evendo é acionado após o carregamento da página
+      jQuery(window).load(function() {
+        //Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
+        jQuery("#loader")
+          .delay(2000)
+          .fadeOut("slow");
+      });
+    </script>
+    {{ APP }}
+    <!-- <script type="text/javascript" src="https://embed.clickmeeting.com/widgets_embed.html?r=vNwtfe&param_project=account_panel&template=standard"></script> -->
+  </body>
+</html>

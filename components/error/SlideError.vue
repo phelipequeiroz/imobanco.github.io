@@ -1,29 +1,26 @@
 <template>
-<div class="slidemobilefaq">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12 text-center col-md-8 pt-5">
-        <h1 class="mt-5 text-content imo-text-07" style="text-shadow: white 0.1em 0.1em 0.2em"> <span class="text-titulo imo-text-02">PÁGINA NÃO ENCONTRADA</span>
-       </h1>
-      </div>
-    </div>
-  </div>
-
-</div>
+  <section class="slidemobilecontato pt-5 pb-5">
+    <b-container>
+      <b-row>
+        <b-col cols="12" md="12" lg="12" class="text-center mt-lg-5 mt-md-3">
+          <h1 class="text-title text-white mt-5 title-font">
+            Página não encontrada
+          </h1>
+        </b-col>
+      </b-row>
+    </b-container>
+  </section>
 </template>
 
-
-<script>
- 	
-</script>
-
+<script></script>
 
 <style>
-.slidemobilefaq{
-        height: 300px;
-        background-image: url("~assets/image/bannerindexslidefaq.jpg") !important;
-        background-size: 100% auto cover;
-        background-position: center;
-        background-repeat: no-repeat;
+.slidemobilecontato {
+  height: 400px;
+  background-image: url("~static/image/banner-contato.jpg") !important;
+  background-color: #9c9c9c;
+  background-size: 100% auto cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 </style>

@@ -1,0 +1,25 @@
+// Customização do CSS SCSS 7-1 Importação de conteúdo.
+
+@import "custom/navbar-left.scss";
+@import "custom/button-theme.scss";
+@import "custom/newsletter.scss";
+@import "custom/navbar.scss";
+@import "custom/navbar-mobile.scss";
+// Base : animações, base, tipografia e utilitários.
+@import "custom/base/color";
+@import "custom/base/icon";
+@import "custom/base/fonts";
+@import "custom/base/variables";
+
+// Components : possui um único arquivo scss para cada componente individual
+
+// Layout : cabeçalho, rodapé, grade, navegação
+
+// Pages : tenha um único scss para cada página específica
+@import "custom/pages/ecommerce";
+// Themes : lida com vários temas (opcional, ainda não o usei)
+
+// Abstracts : manipula função, mixins e variáveis
+
+// Vendor : lida com CSS de terceiros
+// Vendor - Css Terceiros

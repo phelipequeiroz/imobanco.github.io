@@ -1,31 +1,29 @@
 <template>
   <div class="container-fluid">
-    <div>
-		<headerpage />
-		<chargescontent />
-		<charges-imobanco />
-    </div>
+    <navbar-secondary />
+    <header-cobrancas />
+    <acordo-cobrancas />
+    <recuperar-cobrancas />
+    <administrativo-cobrancas />
   </div>
 </template>
 
 <script>
-
-import Headerpage from '@/components/pages/Headerpage.vue'
-import Chargescontent from '@/components/cobrancas/Chargescontent.vue'
-import ChargesImobanco from '@/components/cobrancas/ChargesImobanco.vue'
-// import FooterIndex from '@/components/index/footer/FooterIndex.vue'
+import NavbarSecondary from "@/components/main/NavbarSecondary.vue";
+import HeaderCobrancas from "@/components/cobrancas/HeaderCobrancas.vue";
+import AcordoCobrancas from "@/components/cobrancas/AcordoCobrancas.vue";
+import RecuperarCobrancas from "@/components/cobrancas/RecuperarCobrancas.vue";
+import AdministrativoCobrancas from "@/components/cobrancas/AdministrativoCobrancas.vue";
 
 export default {
   components: {
-   
-   Headerpage,
-   Chargescontent,
-   ChargesImobanco
-    
-  }
-}
+    NavbarSecondary,
+    HeaderCobrancas,
+    AcordoCobrancas,
+    RecuperarCobrancas,
+    AdministrativoCobrancas,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

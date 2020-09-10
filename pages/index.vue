@@ -1,35 +1,31 @@
 <template>
-    <div>
+  <div>
+    <navbar-mobile />
     <header-slide />
-    <services />
-    <solucao />
-    <newsletter />
-    <blog />
-    </div> 
+    <persona-section />
+    <services-section />
+    <facilidades-item />
+    <chat-comercial />
+  </div>
 </template>
 
 <script>
-
-import HeaderSlide from '~/components/HeaderSlide.vue';
-import Services from '@/components/index/services/Services.vue'
-import Solucao from '@/components/index/solucoes/Solucao.vue'
-import Newsletter from '@/components/index/newsletter/Newsletter.vue'
-import Blog from '@/components/index/blog/Blog.vue'
-// import Media from '@/components/index/media/Media.vue'
-
+import NavbarMobile from "@/components/main/NavbarMobile.vue";
+import HeaderSlide from "~/components/main/HeaderSlide.vue";
+import PersonaSection from "~/components/index/persona/PersonaSection.vue";
+import FacilidadesItem from "~/components/index/facilidadesimobanco/FacilidadesItem.vue";
+import ServicesSection from "~/components/index/services/ServicesSection.vue";
+import ChatComercial from "~/components/index/chatcomercial/ChatComercial.vue";
 
 export default {
   components: {
+    NavbarMobile,
     HeaderSlide,
-    Services,
-    Solucao,
-    Newsletter,
-    Blog,
-    // Media
-  }
-}
+    PersonaSection,
+    FacilidadesItem,
+    ServicesSection,
+    ChatComercial,
+  },
+};
 </script>
-
-<style>
-
-</style>
+<style></style>

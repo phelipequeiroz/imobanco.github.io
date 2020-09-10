@@ -1,10 +1,10 @@
-# site-imobanco
+# Site Imobanco
 
 > Site Imobanco
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm run install
 

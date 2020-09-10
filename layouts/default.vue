@@ -1,27 +1,24 @@
 <template>
   <div>
-    <navbar />
     <nuxt />
     <footer-index />
   </div>
 </template>
  
 <script>
-  import Navbar from '@/components/Navbar.vue'
-  import FooterIndex from '@/components/index/footer/FooterIndex.vue'
+import FooterIndex from "@/components/main/FooterIndex.vue";
 
-  export default {
+export default {
   components: {
-    Navbar,
-    FooterIndex
-  }
-}
+    FooterIndex,
+  },
+};
 </script>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -38,15 +35,15 @@ html {
   margin: 0;
 }
 
-.slideecommerce{
-        height: 500px;
-        background-image: url("~assets/image/bgecommerce.jpg");
-        background: rgb(4,95,170);
-        background-size: 100% auto cover;
-        background-position: center top;
-        background-repeat: no-repeat;
-  }
-.mostrar{
-	opacity: 0;
+.slideecommerce {
+  height: 500px;
+  /* background-image: url("~assets/image/bgecommerce.jpg"); */
+  background: rgb(4, 95, 170);
+  background-size: 100% auto cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.mostrar {
+  opacity: 0;
 }
 </style>

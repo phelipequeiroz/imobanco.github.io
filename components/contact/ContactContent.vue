@@ -1,24 +1,45 @@
 <template>
-	<div class="container pt-5 pb-5">
-		<div class="row justify-content-center">
-			<div class="col-lg-12 text-center">
-					<h2 class="mt-5 imo-text-08 text-titulo">CANAIS DE COMUNICAÇÃO IMOBANCO</h2>
-					<p class="text-content imo-text-07 text-center">Opções para você resolver sua vida financeira quando e onde precisar.</p>	
-			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-lg-3 col-md-6">
-				<a href="https://t.me/imobancobot" target="_blank"><img src="~assets/image/contact-vendas.jpg" alt="" class="img-fluid"></a>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<a href="https://t.me/imobancobot" target="_blank"><img src="~assets/image/contact-chat.jpg" alt="" class="img-fluid"></a>
-			</div>
-		</div>
-	</div>
+  <div class="container pt-5 pb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h2 class="mt-5 text-title title-font">
+          Contato e Suporte - Horários de atendimento
+        </h2>
+        <hr />
+
+        <h5 class="text-subtitle text-center">
+          Chat Imobanco
+        </h5>
+        <p>
+          Segunda a sexta-feira, das 9h às 16h​ <br />
+          Sábados, Domingos e feriados nacionais, sem expediente​
+        </p>
+        <br />
+        <h5 class="text-subtitle text-center">
+          Suporte Imobanco - Chat Online
+        </h5>
+        <p>
+          Segunda a sexta-feira, das 9h às 16h​ <br />
+          Sábados, Domingos e feriados nacionais, sem expediente​
+        </p>
+        <br />
+        <h5 class="text-subtitle text-center">
+          Suporte Imobanco - Ticket
+        </h5>
+        <p>Segunda a Domingo, 24h​ <br />​</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-6 text-center">
+        <a
+          href="https://imobanco.tomticket.com/chat/geral?id=EP09705"
+          class="btn btn-outline-info form-radius"
+          ><i class="fas fa-tools"></i> Ticket Suporte</a
+        >
+      </div>
+      <div class="col-lg-4 col-md-6"></div>
+    </div>
+  </div>
 </template>
-<script>
-	
-</script>
-<style>
-	
-</style>
+<script></script>
+<style></style>

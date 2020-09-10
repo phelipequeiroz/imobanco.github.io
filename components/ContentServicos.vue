@@ -1,10 +1,9 @@
 <template>
 
-    <div>
-                
-        <h4 class=" imo-text-01 text-titulo ">
-        {{ title }}</h4>
-        <p class="imo-text-07 text-content text-justify">{{ content }}</p>
+    <div>        
+        <h5 class="text-secondary text-titulo">
+        {{ title }}</h5>
+        <p class="text-cinza text-subtitulo text-justify">{{ content }}</p>
     </div>
 			
 
