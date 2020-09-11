@@ -76,8 +76,8 @@ export default {
         { title: "Desenvolvedores", link: "https://imopay.com.br/" },
       ],
       topics_solution: [
-        { title: "Boleto", link: "/boleto" },
-        { title: "Cobrança", link: "/charges" },
+        { title: "Boleto", link: "/boletos" },
+        { title: "Cobrança", link: "/cobrancas" },
         { title: "E-Commerce", link: "/ecommerce" },
       ],
       topics_ajuda: [

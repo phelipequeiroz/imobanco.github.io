@@ -16,7 +16,7 @@
           <a
             href="http://app.imobanco.com.br/register"
             target="_blank"
-            class="btn bg-white form-radius-total"
+            class="btn bg-white form-radius"
             >Contrate já!</a
           >
         </b-col>

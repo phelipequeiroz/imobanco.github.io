@@ -1,6 +1,6 @@
 <template>
   <section class="bg-imobanco">
-    <b-container class="">
+    <b-container class>
       <b-row>
         <b-col cols="12" md="12" lg="12" class="d-lg-none d-xl-none">
           <b-navbar
@@ -9,7 +9,7 @@
             class="container-fluid text-center"
             id="nav"
           >
-            <div class="container ">
+            <div class="container">
               <router-link to="/" class="navbar-brand">
                 <img
                   src="~assets/image/logoimobanco.png"
@@ -67,7 +67,7 @@
                       >
 
                       <a
-                        href="#"
+                        href="http://app.imobanco.com.br"
                         class="btn bg-bluepink text-white form-radius-total p-2"
                         >Seja Imobanco</a
                       >

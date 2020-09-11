@@ -16,7 +16,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-row class="justify-content-center">
           <b-col cols="12" md="6">
-            <b-navbar-nav class="ml-auto text-center">
+            <b-navbar-nav class="ml-auto text-center pb-2">
               <router-link
                 to="/"
                 class="text-titulo-sidebar text-decoration-none text-white navbarbox"
@@ -47,7 +47,7 @@
             to="/pagador"
             class="text-titulo-sidebar text-decoration-none text-white navbarbox"
             >Pagador</router-link
-          > -->
+              >-->
               <router-link
                 to="/contato"
                 class="text-titulo-sidebar text-decoration-none text-white navbarbox"
@@ -56,10 +56,9 @@
               <a
                 href="http://app.imobanco.com.br/login"
                 target="_blank"
-                class="btn bg-bluepink text-titulo-sidebar text-decoration-none text-white navbarbox form-radius"
+                class="btn bg-bluepink text-titulo-sidebar text-decoration-none text-white navbarbox form-radius ml-3"
+                >Login</a
               >
-                Login
-              </a>
             </b-navbar-nav>
           </b-col>
         </b-row>
