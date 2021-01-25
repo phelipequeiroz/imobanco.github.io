@@ -55,11 +55,11 @@
                         class="text-white text-decoration-none p-2"
                         >Imprensa</router-link
                       >
-                      <router-link
+                      <!-- <router-link
                         to="/pagador"
                         class="text-white text-decoration-none p-2"
                         >Pagador</router-link
-                      >
+                      > -->
                       <router-link
                         to="/contato"
                         class="text-white text-decoration-none p-2"
@@ -69,7 +69,7 @@
                       <a
                         href="http://app.imobanco.com.br"
                         class="btn bg-bluepink text-white form-radius-total p-2"
-                        >Seja Imobanco</a
+                        > Seja Imobanco</a
                       >
                     </b-navbar-nav>
                   </b-col>
