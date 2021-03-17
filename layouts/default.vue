@@ -1,16 +1,16 @@
 <template>
   <div>
     <nuxt />
-    <footer-index />
+    <!--<footer-index />-->
   </div>
 </template>
  
 <script>
-import FooterIndex from "@/components/main/FooterIndex.vue";
+//import FooterIndex from "@/components/main/FooterIndex.vue";
 
 export default {
   components: {
-    FooterIndex,
+    //FooterIndex,
   },
 };
 </script>
