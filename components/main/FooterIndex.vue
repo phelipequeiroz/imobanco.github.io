@@ -8,6 +8,7 @@
 <script>
 // import FooterSocial from "@/components/footer/FooterSocial.vue";
 import FooterContent from "@/components/footer/FooterContent.vue";
+
 export default {
   name: "FooterIndex",
   components: {
