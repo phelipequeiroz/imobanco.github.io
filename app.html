@@ -2,15 +2,10 @@
 <html {{ HTML_ATTRS }}>
   <head {{ HEAD_ATTRS }}>
     {{ HEAD }}
-    <script type="text/javascript">
-      var hash_smartzap =
-        "NmM0ZjdmNGUwNjIzZDFhOTcyNDlkYTg1Zjc1NzI0YWU1ZWYwNTk5MzhiYTc5OWFhYTg0NWUxYzJlOGE3NjJiZA";
+    
+    <script>
+      !function(e,t,n,r){function s(){try{var e;if((e="string"==typeof this.response?JSON.parse(this.response):this.response).url){var n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.async=!0,r.src=e.url,n.parentNode.insertBefore(r,n)}}catch(e){}}var o,a,i,p=[],c=[];e[n]={init:function(){o=arguments;var e={then:function(t){return c.push({type:"t",next:t}),e},catch:function(t){return c.push({type:"c",next:t}),e}};return e},on:function(){p.push(arguments)},render:function(){a=arguments},destroy:function(){i=arguments}},e.__onWebMessengerHostReady__=function(t){if(delete e.__onWebMessengerHostReady__,e[n]=t,o)for(var r=t.init.apply(t,o),s=0;s<c.length;s++){var u=c[s];r="t"===u.type?r.then(u.next):r.catch(u.next)}a&&t.render.apply(t,a),i&&t.destroy.apply(t,i);for(s=0;s<p.length;s++)t.on.apply(t,p[s])};var u=new XMLHttpRequest;u.addEventListener("load",s),u.open("GET","https://cnd-bot.metasix.solutions/loader.json",!0),u.responseType="json",u.send()}(window,document,"Metasix");
     </script>
-    <script
-      type="text/javascript"
-      src="https://imobanco.sz.chat/webchannel/source/smartzap-web.js"
-    ></script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -28,6 +23,55 @@
   </head>
 
   <body {{ BODY_ATTRS }}>
+    <script>
+      window.setTimeout(function(){
+                  Metasix.init({appId: '62685771e6f19900f4a9894f',
+                      browserStorage: 'sessionStorage',
+                      
+                      avatarUrl: 'https://media.smooch.io/5ea75ae9958aad0010a2f61e/icons/2eb1858366fc685b2ac68cf124997c19.jpg?t=1612458734630',
+                      
+                      prechatCapture: { 
+                          enabled: false, 
+                          enableEmailLinking: false,
+                          avatarUrl: 'https://media.smooch.io/5ea75ae9958aad0010a2f61e/icons/2eb1858366fc685b2ac68cf124997c19.jpg?t=1612458734630',
+                      },
+                      menuItems: {
+                        imageUpload: false,
+                        fileUpload: true,
+                        shareLocation: false
+                      },
+                      customText: { headerText: 'Como posso ajudar você?', 
+                          introAppText:'Utilize o app de mensagem que preferir!',
+                          inputPlaceholder: 'Digite aqui...', 
+                          sendButtonText: 'Enviar',
+                          introductionText:'Olá, como posso ajudar você hoje?!', 
+                          prechatCaptureGreetingText:'Olá! Você pode digitar seu nome para o atendimento?',
+                          prechatCaptureNameLabel:'Seu nome:',
+                          prechatCaptureNamePlaceholder:'Digite o nome e pressione o botão.',
+                          prechatCaptureEmailLabel:'Seu E-mail:',
+                          prechatCaptureEmailPlaceholder:'Digite o e-mail e pressione o botão.',
+                          prechatCaptureConfirmationText:'Obrigado pelos dados! Vamos seguir com seu atendimento.', 
+                          inputPlaceholderBlocked:'Preencha os dados para iniciar o chat!',
+                          connectNotificationSingleText:'Seja notificado quando receber uma resposta',
+                          connectNotificationSingleButtonText:'Ligar notificação do <name>.',
+                          messageRelativeTimeJustNow: 'agora',
+                          messageRelativeTimeDay: '{value}d atrás',
+                          messageRelativeTimeHour: '{value}h atrás',
+                          messageRelativeTimeMinute: '{value}m atrás',
+                          messageTimestampFormat: 'h:mm A',
+                          messageSending: 'Enviando...',
+                          messageDelivered: 'Entregue',
+                          notificationSettingsChannelsTitle: 'Outros Canais',
+                          notificationSettingsChannelsDescription: 'Você também pode falar conosco usando seu aplicativo favorito basta escolher',
+                          settingsHeaderText: 'Canais disponiveis',
+                          connectNotificationText: 'teste'
+                      }
+      
+              }).then(function(e) {});
+              }, 1000)    
+              
+              
+      </script>
     <script type="text/javascript">
       // Este evendo é acionado após o carregamento da página
       jQuery(window).load(function() {
